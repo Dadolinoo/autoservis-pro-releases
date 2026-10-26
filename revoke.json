@@ -1,8 +1,6 @@
 {
   "v": 1,
-  "updated": "2026-10-26T16:39:23.790Z",
-  "revoked": [
-    "5823197f4584d98f05610974b584028f31c0f87984715bdd539921303b09547d"
-  ],
-  "sig": "XrTcqJuLULWF3H_rNhkL9JeAfdwsZQMZDiXR4gDOkENP3-TmdPeQvu5C0_5RkKl8uoQi-e-bh5dcK1kRs-rpCg"
+  "updated": "2026-10-26T16:39:25.630Z",
+  "revoked": [],
+  "sig": "EzSgD6SS8ugHo-hG6qlLod9WyQlcrtwreQl7IWdotqO3Xn2OI91WTlzXtj7tQiDtknGhaDEc_O_SALf_BaofAQ"
 }
