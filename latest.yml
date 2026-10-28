@@ -1,12 +1,14 @@
-version: 2.3.11
+version: 2.3.18
 files:
-  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.11/DH-Logix-Setup-2.3.11.exe
-    sha512: 36PN+dyprZzOsT1ws5wYjmmEKQXkE8FFLrzjMrCH4u9vOYsEuEtwBou6NbLhhcXQsxT4S5xftPG1dAuCTIGewA==
-    size: 109267648
-path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.11/DH-Logix-Setup-2.3.11.exe
-sha512: 36PN+dyprZzOsT1ws5wYjmmEKQXkE8FFLrzjMrCH4u9vOYsEuEtwBou6NbLhhcXQsxT4S5xftPG1dAuCTIGewA==
+  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.18/DH-Logix-Setup-2.3.18.exe
+    sha512: 9W9yuoUaVXWAq0Gwz9ctVndvtrt/iJChhvKfjuDMIeF/TK3A+kZ6lhrAgRiTGz/fstaN3ijZi1xJvirQT3W/6A==
+    size: 109266562
+path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.18/DH-Logix-Setup-2.3.18.exe
+sha512: 9W9yuoUaVXWAq0Gwz9ctVndvtrt/iJChhvKfjuDMIeF/TK3A+kZ6lhrAgRiTGz/fstaN3ijZi1xJvirQT3W/6A==
 releaseNotes: |
-  Novo u verziji 2.3.11:
-  - Ponude i radni nalozi: detalj više nije uski desni panel — otvara se full-screen modal (navy + light)
-  - Nazivi stavki i gumbi su čitljivi na cijelom ekranu
-releaseDate: '2026-10-28T13:11:50.878Z'
+  Novo u verziji 2.3.18:
+  - Nadzorna: pune registracije u Posljednjim radnim nalozima (plate pill se ne reže)
+  - Nadzorna: Status u Današnjim terminima cijeli (npr. „U radu”)
+  - Nadzorna: manji razmak vrijeme → logo/tablica u Današnjim terminima
+  - Registracije: isti bijeli pill badge svugdje (bez zastavica)
+releaseDate: '2026-10-28T14:27:40.956Z'
