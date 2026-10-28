@@ -1,13 +1,12 @@
-version: 2.3.10
+version: 2.3.11
 files:
-  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.10/DH-Logix-Setup-2.3.10.exe
-    sha512: W1RGewVAaZr6fFlR6VngzCM5zD3B90v7/Jz7PgiOmRJz5VpSqyAjzwd7J9Z99LjU+mWhHflCxO70oDbz66cONA==
-    size: 109267406
-path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.10/DH-Logix-Setup-2.3.10.exe
-sha512: W1RGewVAaZr6fFlR6VngzCM5zD3B90v7/Jz7PgiOmRJz5VpSqyAjzwd7J9Z99LjU+mWhHflCxO70oDbz66cONA==
+  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.11/DH-Logix-Setup-2.3.11.exe
+    sha512: 36PN+dyprZzOsT1ws5wYjmmEKQXkE8FFLrzjMrCH4u9vOYsEuEtwBou6NbLhhcXQsxT4S5xftPG1dAuCTIGewA==
+    size: 109267648
+path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.11/DH-Logix-Setup-2.3.11.exe
+sha512: 36PN+dyprZzOsT1ws5wYjmmEKQXkE8FFLrzjMrCH4u9vOYsEuEtwBou6NbLhhcXQsxT4S5xftPG1dAuCTIGewA==
 releaseNotes: |
-  Novo u verziji 2.3.10:
-  - Pouzdanije ažuriranje kad GitHub sporije odgovara (čest timeout u HR): prvo se gleda brzi CDN feed (jsDelivr), zatim GitHub, uz ponovne pokušaje
-  - Ispravljeno: timeout više nije „Nema veze s internetom”; u logu i u Postavkama vidi se stvarna greška
-  - Fallback provjera preko Node HTTPS ako Electron net zapne
-releaseDate: '2026-10-27T16:41:02.833Z'
+  Novo u verziji 2.3.11:
+  - Ponude i radni nalozi: detalj više nije uski desni panel — otvara se full-screen modal (navy + light)
+  - Nazivi stavki i gumbi su čitljivi na cijelom ekranu
+releaseDate: '2026-10-28T13:11:50.878Z'
