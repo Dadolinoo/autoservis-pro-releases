@@ -1,14 +1,13 @@
-version: 2.3.18
+version: 2.3.19
 files:
-  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.18/DH-Logix-Setup-2.3.18.exe
-    sha512: 9W9yuoUaVXWAq0Gwz9ctVndvtrt/iJChhvKfjuDMIeF/TK3A+kZ6lhrAgRiTGz/fstaN3ijZi1xJvirQT3W/6A==
-    size: 109266562
-path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.18/DH-Logix-Setup-2.3.18.exe
-sha512: 9W9yuoUaVXWAq0Gwz9ctVndvtrt/iJChhvKfjuDMIeF/TK3A+kZ6lhrAgRiTGz/fstaN3ijZi1xJvirQT3W/6A==
+  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.19/DH-Logix-Setup-2.3.19.exe
+    sha512: Nle4mNGblrhdBvRKX9Exvg7N3jV8wXECYi7P6rL5jq3dX9+dQBn5aJR4zbMDi/yBQMq08VRpjKtH0tJ1sCtEPg==
+    size: 109270635
+path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.19/DH-Logix-Setup-2.3.19.exe
+sha512: Nle4mNGblrhdBvRKX9Exvg7N3jV8wXECYi7P6rL5jq3dX9+dQBn5aJR4zbMDi/yBQMq08VRpjKtH0tJ1sCtEPg==
 releaseNotes: |
-  Novo u verziji 2.3.18:
-  - Nadzorna: pune registracije u Posljednjim radnim nalozima (plate pill se ne reže)
-  - Nadzorna: Status u Današnjim terminima cijeli (npr. „U radu”)
-  - Nadzorna: manji razmak vrijeme → logo/tablica u Današnjim terminima
-  - Registracije: isti bijeli pill badge svugdje (bez zastavica)
-releaseDate: '2026-10-28T14:27:40.956Z'
+  Novo u verziji 2.3.19:
+  - Kalendar: novi prikaz „Popis” (zadano) – odabrani dan s terminima grupiranim po dizalicama, poredano po vremenu, s ispisom dana
+  - Termin: novo polje „Dizalica” (neobavezno); termini na različitim dizalicama više se ne javljaju kao preklapanje
+  - Postavke servisa: popis dizalica (zadano Dizalica 1–5) – nazivi se mogu mijenjati, dodavati i brisati
+releaseDate: '2026-10-29T07:19:40.133Z'
