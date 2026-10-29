@@ -1,13 +1,14 @@
-version: 2.3.19
+version: 2.3.20
 files:
-  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.19/DH-Logix-Setup-2.3.19.exe
-    sha512: Nle4mNGblrhdBvRKX9Exvg7N3jV8wXECYi7P6rL5jq3dX9+dQBn5aJR4zbMDi/yBQMq08VRpjKtH0tJ1sCtEPg==
-    size: 109270635
-path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.19/DH-Logix-Setup-2.3.19.exe
-sha512: Nle4mNGblrhdBvRKX9Exvg7N3jV8wXECYi7P6rL5jq3dX9+dQBn5aJR4zbMDi/yBQMq08VRpjKtH0tJ1sCtEPg==
+  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.20/DH-Logix-Setup-2.3.20.exe
+    sha512: yXsU4BPVVJmdLFGDsknMbbefRyC5mgbzxVexzzJEt7WqoPfj5GvpGoPtJZGXPBsLiBbxmEuffSpwOnnDlZlXyQ==
+    size: 109270298
+path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.20/DH-Logix-Setup-2.3.20.exe
+sha512: yXsU4BPVVJmdLFGDsknMbbefRyC5mgbzxVexzzJEt7WqoPfj5GvpGoPtJZGXPBsLiBbxmEuffSpwOnnDlZlXyQ==
 releaseNotes: |
-  Novo u verziji 2.3.19:
-  - Kalendar: novi prikaz „Popis” (zadano) – odabrani dan s terminima grupiranim po dizalicama, poredano po vremenu, s ispisom dana
-  - Termin: novo polje „Dizalica” (neobavezno); termini na različitim dizalicama više se ne javljaju kao preklapanje
-  - Postavke servisa: popis dizalica (zadano Dizalica 1–5) – nazivi se mogu mijenjati, dodavati i brisati
-releaseDate: '2026-10-29T07:19:40.133Z'
+  Novo u verziji 2.3.20:
+  - Status termina i radnog naloga sada se usklađuju: kad nalog prijeđe u „U radu”, „Završeno” ili „Predano”, termin u kalendaru prikazuje isto (i obrnuto)
+  - Promjena statusa odmah se vidi svugdje u programu: Radni nalozi, Kalendar, Nadzorna ploča, povijest vozila i klijenta
+  - Termini koji su ostali „U radu” iako je nalog završen automatski su ispravljeni
+  - Dijelovi se skidaju sa zalihe samo jednom, bez obzira mijenja li se status na nalogu ili na terminu
+releaseDate: '2026-10-29T10:55:35.929Z'
