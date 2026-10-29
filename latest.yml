@@ -1,13 +1,14 @@
-version: 2.3.21
+version: 2.3.23
 files:
-  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.21/DH-Logix-Setup-2.3.21.exe
-    sha512: CoNJzxkuWD/XblPyX9WsyIEDiiASAM4hMwEo9bcWIHnkeen7yxETqTBmoZ703amNas0Ew7cbWY9Govir+plc9w==
-    size: 109272228
-path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.21/DH-Logix-Setup-2.3.21.exe
-sha512: CoNJzxkuWD/XblPyX9WsyIEDiiASAM4hMwEo9bcWIHnkeen7yxETqTBmoZ703amNas0Ew7cbWY9Govir+plc9w==
+  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.23/DH-Logix-Setup-2.3.23.exe
+    sha512: T18BbjCVojqmuWt+dLvkZlGUBN/STXYozGPDii5yWjoY5h0zMeW62KAnkTerNRlYJX1J6b0AOW/91rmLRg8G6g==
+    size: 101607537
+path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.23/DH-Logix-Setup-2.3.23.exe
+sha512: T18BbjCVojqmuWt+dLvkZlGUBN/STXYozGPDii5yWjoY5h0zMeW62KAnkTerNRlYJX1J6b0AOW/91rmLRg8G6g==
 releaseNotes: |
-  Novo u verziji 2.3.21:
-  - Licenca za više računala: jedan ključ vrijedi na više računala istog kupca
-  - Stranica Licenca prikazuje popis računala na kojima ključ vrijedi
-  - Za izradu ključa za više računala potreban je DH-Logix Admin 1.4.0
-releaseDate: '2026-10-29T11:37:30.000Z'
+  Novo u verziji 2.3.23:
+  - Koš za obrisane stavke: obrisani nalozi, termini, ponude, vozila i klijenti mogu se vratiti (Poništi / Vrati iz Koša)
+  - Jača zaštita programskog koda
+  - Provjera licence na poslužitelju prije sinkronizacije
+  - Pouzdanije ažuriranje (više izvora, ponovni pokušaj, „Preuzmi ručno”)
+releaseDate: '2026-10-29T14:12:51.000Z'
