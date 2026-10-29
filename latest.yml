@@ -1,14 +1,13 @@
-version: 2.3.20
+version: 2.3.21
 files:
-  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.20/DH-Logix-Setup-2.3.20.exe
-    sha512: yXsU4BPVVJmdLFGDsknMbbefRyC5mgbzxVexzzJEt7WqoPfj5GvpGoPtJZGXPBsLiBbxmEuffSpwOnnDlZlXyQ==
-    size: 109270298
-path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.20/DH-Logix-Setup-2.3.20.exe
-sha512: yXsU4BPVVJmdLFGDsknMbbefRyC5mgbzxVexzzJEt7WqoPfj5GvpGoPtJZGXPBsLiBbxmEuffSpwOnnDlZlXyQ==
+  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.21/DH-Logix-Setup-2.3.21.exe
+    sha512: CoNJzxkuWD/XblPyX9WsyIEDiiASAM4hMwEo9bcWIHnkeen7yxETqTBmoZ703amNas0Ew7cbWY9Govir+plc9w==
+    size: 109272228
+path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.21/DH-Logix-Setup-2.3.21.exe
+sha512: CoNJzxkuWD/XblPyX9WsyIEDiiASAM4hMwEo9bcWIHnkeen7yxETqTBmoZ703amNas0Ew7cbWY9Govir+plc9w==
 releaseNotes: |
-  Novo u verziji 2.3.20:
-  - Status termina i radnog naloga sada se usklađuju: kad nalog prijeđe u „U radu”, „Završeno” ili „Predano”, termin u kalendaru prikazuje isto (i obrnuto)
-  - Promjena statusa odmah se vidi svugdje u programu: Radni nalozi, Kalendar, Nadzorna ploča, povijest vozila i klijenta
-  - Termini koji su ostali „U radu” iako je nalog završen automatski su ispravljeni
-  - Dijelovi se skidaju sa zalihe samo jednom, bez obzira mijenja li se status na nalogu ili na terminu
-releaseDate: '2026-10-29T10:55:35.929Z'
+  Novo u verziji 2.3.21:
+  - Licenca za više računala: jedan ključ vrijedi na više računala istog kupca
+  - Stranica Licenca prikazuje popis računala na kojima ključ vrijedi
+  - Za izradu ključa za više računala potreban je DH-Logix Admin 1.4.0
+releaseDate: '2026-10-29T11:37:30.000Z'
