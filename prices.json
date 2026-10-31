@@ -1,0 +1,25 @@
+{
+  "v": 1,
+  "updated": "2026-10-31T10:11:46.272Z",
+  "version": 1,
+  "currency": "EUR",
+  "paketi": {
+    "osnovni": {
+      "m": 5000,
+      "y": 60000
+    },
+    "pro": {
+      "m": 7000,
+      "y": 84000
+    }
+  },
+  "dodaci": {
+    "visekorisnika": {
+      "m": 0,
+      "y": 0
+    }
+  },
+  "akcija": null,
+  "note": "PDV nije obračunat (čl. 90. st. 1. Zakona o PDV-u).",
+  "sig": "BoMWp-4WkswglK_NiX3-ombTf9pIun-lOagEQVYhytwc4-jwaFB7ifyM3iLTg57EOQXKbO8FsZ_0fdUPuOiHAQ"
+}
