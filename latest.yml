@@ -1,14 +1,17 @@
-version: 2.3.23
+version: 2.3.25
 files:
-  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.23/DH-Logix-Setup-2.3.23.exe
-    sha512: T18BbjCVojqmuWt+dLvkZlGUBN/STXYozGPDii5yWjoY5h0zMeW62KAnkTerNRlYJX1J6b0AOW/91rmLRg8G6g==
-    size: 101607537
-path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.23/DH-Logix-Setup-2.3.23.exe
-sha512: T18BbjCVojqmuWt+dLvkZlGUBN/STXYozGPDii5yWjoY5h0zMeW62KAnkTerNRlYJX1J6b0AOW/91rmLRg8G6g==
+  - url: DH-Logix-Setup-2.3.25.exe
+    sha512: VR22pbDIqZXaQKaXcutWPXnkx+743iY+SALnaDa7ZwY3p6ej7OJEhfr+G5Xo5ahLZyIqqfCeYLl4SyrzXkcJww==
+    size: 101633863
+path: DH-Logix-Setup-2.3.25.exe
+sha512: VR22pbDIqZXaQKaXcutWPXnkx+743iY+SALnaDa7ZwY3p6ej7OJEhfr+G5Xo5ahLZyIqqfCeYLl4SyrzXkcJww==
 releaseNotes: |
-  Novo u verziji 2.3.23:
-  - Koš za obrisane stavke: obrisani nalozi, termini, ponude, vozila i klijenti mogu se vratiti (Poništi / Vrati iz Koša)
-  - Jača zaštita programskog koda
-  - Provjera licence na poslužitelju prije sinkronizacije
-  - Pouzdanije ažuriranje (više izvora, ponovni pokušaj, „Preuzmi ručno”)
-releaseDate: '2026-10-29T14:12:51.000Z'
+  Novo u verziji 2.3.25:
+  - Licenca: „Odabir licence” – paketi Osnovni i Pro (s mobilnom aplikacijom), mjesečno ili godišnje, broj računala (dodatna računala su besplatna)
+  - Cijene se prikazuju tek kad ih autor objavi u Admin programu (potpisan cjenik); do tada program ne prikazuje nikakve iznose
+  - Kad je cjenik objavljen: cijena paketa, ukupni iznos i napomena o PDV-u; iznos i datum cjenika upisuju se u zahtjev za licencu
+  - Bez interneta prikazuje se zadnji poznati cjenik s datumom
+  - Cjenik je prikazan i na zaslonu za aktivaciju kad licenca istekne (samo ako je objavljen)
+  - Mobilna aplikacija je dio paketa Pro
+  - Sve zaštite iz 2.3.22 ostaju (bytecode, obfuscacija, fuses, ažuriranja)
+releaseDate: '2026-10-31T09:45:15.524Z'
