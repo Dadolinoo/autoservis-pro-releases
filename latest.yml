@@ -1,21 +1,12 @@
-version: 2.3.26
+version: 2.3.27
 files:
-  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.26/DH-Logix-Setup-2.3.26.exe
-    sha512: /Q8UBax61fYLoOVQoFCtaXd4du03srLljtTVcPkIkgpr/U/dFUJbyrETvkV1e2Qk/sO76yxepkMfNj+7dmuaNQ==
-    size: 101649836
-path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.26/DH-Logix-Setup-2.3.26.exe
-sha512: /Q8UBax61fYLoOVQoFCtaXd4du03srLljtTVcPkIkgpr/U/dFUJbyrETvkV1e2Qk/sO76yxepkMfNj+7dmuaNQ==
+  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.27/DH-Logix-Setup-2.3.27.exe
+    sha512: L2Y8kLK/RVNhZ6CvXBjx2mGhMHLvKbwh4nvbXkIXG+SIDlNf0aXpmDllCU6PtSyUqBZYh6HPXXt5OAr1uFadDQ==
+    size: 101645005
+path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.27/DH-Logix-Setup-2.3.27.exe
+sha512: L2Y8kLK/RVNhZ6CvXBjx2mGhMHLvKbwh4nvbXkIXG+SIDlNf0aXpmDllCU6PtSyUqBZYh6HPXXt5OAr1uFadDQ==
 releaseNotes: |
-  Novo u verziji 2.3.26:
-  - Izvještaji: nova kartica „Zarada i dobavljači” – po tjednu ili mjesecu
-  - Za svakog dobavljača (Tokić, Inter Cars, Ciak Auto i ostali) prikazan je ukupni iznos i broj računa, te „Ukupno plaćeno dobavljačima”
-  - Rezultat: Prihod ukupno (završeni i predani radni nalozi) − plaćeno dobavljačima = OSTALO VAMA; posebno „Od toga zarada od rada (usluge)”
-  - Gumb „Dodaj račun dobavljača”: dobavljač, datum, ukupan iznos i (po želji) broj računa
-  - Upisani računi mogu se urediti ili obrisati; obrisani idu u Koš i vraćaju se jednim klikom
-  - Prikaz s PDV-om ili bez PDV-a; ispis i PDF na jednoj A4 stranici
-  - Računi dobavljača sinkroniziraju se između računala i ulaze u sigurnosne kopije
-  - Radni nalog: novi zeleni gumb „Podijeli” – popis dijelova za narudžbu (šifra, naziv, količina + vozilo i VIN, bez cijena) dobavljaču (Tokić, Inter Cars, Ciak Auto d.o.o. ili drugi) ili cijeli radni nalog u PDF-u klijentu
-  - Slanje preko WhatsAppa ili e-maila uz pregled poruke prije slanja; broj ili e-mail dobavljača program pamti za iduću narudžbu
-  - Stavke radnog naloga: novi stupac „Šifra” za dijelove
-  - Popravljeno automatsko ažuriranje: „Preuzimanje nije uspjelo” kod preuzimanja nove verzije više se ne pojavljuje
-releaseDate: '2026-11-03T11:24:27.464Z'
+  Novo u verziji 2.3.27:
+  - Licenca: pri sinkronizaciji s oblakom program autoru javlja naziv servisa (iz Postavki), naziv računala i verziju programa – autor u Admin programu vidi koji servis i koje računalo koristi licencu i kad je zadnji put bilo online
+  - Ne šalju se nikakvi podaci o klijentima, vozilima ni nalozima – samo naziv servisa, naziv računala i verzija
+releaseDate: '2026-11-03T15:56:40.073Z'
