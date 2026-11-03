@@ -1,17 +1,21 @@
-version: 2.3.25
+version: 2.3.26
 files:
-  - url: DH-Logix-Setup-2.3.25.exe
-    sha512: VR22pbDIqZXaQKaXcutWPXnkx+743iY+SALnaDa7ZwY3p6ej7OJEhfr+G5Xo5ahLZyIqqfCeYLl4SyrzXkcJww==
-    size: 101633863
-path: DH-Logix-Setup-2.3.25.exe
-sha512: VR22pbDIqZXaQKaXcutWPXnkx+743iY+SALnaDa7ZwY3p6ej7OJEhfr+G5Xo5ahLZyIqqfCeYLl4SyrzXkcJww==
+  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.26/DH-Logix-Setup-2.3.26.exe
+    sha512: /Q8UBax61fYLoOVQoFCtaXd4du03srLljtTVcPkIkgpr/U/dFUJbyrETvkV1e2Qk/sO76yxepkMfNj+7dmuaNQ==
+    size: 101649836
+path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.26/DH-Logix-Setup-2.3.26.exe
+sha512: /Q8UBax61fYLoOVQoFCtaXd4du03srLljtTVcPkIkgpr/U/dFUJbyrETvkV1e2Qk/sO76yxepkMfNj+7dmuaNQ==
 releaseNotes: |
-  Novo u verziji 2.3.25:
-  - Licenca: „Odabir licence” – paketi Osnovni i Pro (s mobilnom aplikacijom), mjesečno ili godišnje, broj računala (dodatna računala su besplatna)
-  - Cijene se prikazuju tek kad ih autor objavi u Admin programu (potpisan cjenik); do tada program ne prikazuje nikakve iznose
-  - Kad je cjenik objavljen: cijena paketa, ukupni iznos i napomena o PDV-u; iznos i datum cjenika upisuju se u zahtjev za licencu
-  - Bez interneta prikazuje se zadnji poznati cjenik s datumom
-  - Cjenik je prikazan i na zaslonu za aktivaciju kad licenca istekne (samo ako je objavljen)
-  - Mobilna aplikacija je dio paketa Pro
-  - Sve zaštite iz 2.3.22 ostaju (bytecode, obfuscacija, fuses, ažuriranja)
-releaseDate: '2026-10-31T09:45:15.524Z'
+  Novo u verziji 2.3.26:
+  - Izvještaji: nova kartica „Zarada i dobavljači” – po tjednu ili mjesecu
+  - Za svakog dobavljača (Tokić, Inter Cars, Ciak Auto i ostali) prikazan je ukupni iznos i broj računa, te „Ukupno plaćeno dobavljačima”
+  - Rezultat: Prihod ukupno (završeni i predani radni nalozi) − plaćeno dobavljačima = OSTALO VAMA; posebno „Od toga zarada od rada (usluge)”
+  - Gumb „Dodaj račun dobavljača”: dobavljač, datum, ukupan iznos i (po želji) broj računa
+  - Upisani računi mogu se urediti ili obrisati; obrisani idu u Koš i vraćaju se jednim klikom
+  - Prikaz s PDV-om ili bez PDV-a; ispis i PDF na jednoj A4 stranici
+  - Računi dobavljača sinkroniziraju se između računala i ulaze u sigurnosne kopije
+  - Radni nalog: novi zeleni gumb „Podijeli” – popis dijelova za narudžbu (šifra, naziv, količina + vozilo i VIN, bez cijena) dobavljaču (Tokić, Inter Cars, Ciak Auto d.o.o. ili drugi) ili cijeli radni nalog u PDF-u klijentu
+  - Slanje preko WhatsAppa ili e-maila uz pregled poruke prije slanja; broj ili e-mail dobavljača program pamti za iduću narudžbu
+  - Stavke radnog naloga: novi stupac „Šifra” za dijelove
+  - Popravljeno automatsko ažuriranje: „Preuzimanje nije uspjelo” kod preuzimanja nove verzije više se ne pojavljuje
+releaseDate: '2026-11-03T11:24:27.464Z'
