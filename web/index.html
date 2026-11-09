@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DH-Logix — program za autoservise</title>
+  <meta name="description" content="DH-Logix je program za autoservise: radni nalozi, vozila i klijenti, ponude, računi, narudžba dijelova preko WhatsAppa ili e-maila, zarada i dug prema dobavljačima te mobilna aplikacija." />
+  <meta name="theme-color" content="#07111f" />
+  <link rel="canonical" href="https://dadolinoo.github.io/autoservis-pro-releases/web/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dadolinoo.github.io/autoservis-pro-releases/web/" />
+  <meta property="og:title" content="DH-Logix — program za autoservise" />
+  <meta property="og:description" content="Radni nalozi, vozila, ponude, računi, narudžba dijelova i zarada servisa na jednom mjestu." />
+  <meta property="og:image" content="https://dadolinoo.github.io/autoservis-pro-releases/web/img/izvjestaji-rezultat.webp" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <style>
+    :root {
+      --bg:#07111f;
+      --bg-2:#0a1830;
+      --card:#0f1b34;
+      --card-2:#121f3c;
+      --soft:#162544;
+      --line:rgba(255,255,255,.10);
+      --text:#f4f7ff;
+      --muted:#aeb9d3;
+      --blue:#4a78ff;
+      --blue-2:#7296ff;
+      --violet:#8b5cff;
+      --cyan:#43d7ff;
+      --green:#24d17e;
+      --orange:#ff9b42;
+      --shadow:0 20px 60px rgba(0,0,0,.35);
+      --radius:28px;
+      --max:1240px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(circle at 10% 0%, rgba(74,120,255,.22), transparent 25%),
+        radial-gradient(circle at 90% 15%, rgba(139,92,255,.14), transparent 24%),
+        linear-gradient(180deg, #050d18 0%, #071120 28%, #081526 100%);
+    }
+    img{max-width:100%;display:block}
+    a{text-decoration:none;color:inherit}
+    .container{width:min(calc(100% - 32px), var(--max));margin:0 auto}
+    .section{padding:92px 0}
+
+    header{
+      position:sticky;top:0;z-index:40;
+      backdrop-filter: blur(16px);
+      background:rgba(7,17,31,.72);
+      border-bottom:1px solid rgba(255,255,255,.06);
+    }
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:24px;height:84px}
+    .brand{display:flex;align-items:center;gap:14px;font-weight:800;font-size:26px;letter-spacing:-.03em}
+    .brand-mark{width:42px;height:42px;border-radius:14px;background:linear-gradient(135deg,var(--blue),var(--violet));display:grid;place-items:center;box-shadow:0 10px 24px rgba(74,120,255,.28)}
+    .brand-mark span{font-size:19px}
+    .nav-links{display:flex;align-items:center;gap:28px;color:#d3def7}
+    .nav-links a{font-size:15px}
+    .cta-top{padding:13px 20px;border-radius:16px;background:linear-gradient(135deg,var(--blue),#2f66ff);font-weight:700;box-shadow:0 14px 26px rgba(46,102,255,.28)}
+    .menu-btn{display:none;background:rgba(255,255,255,.06);border:1px solid var(--line);color:#fff;padding:10px 14px;border-radius:12px}
+
+    .hero{padding:82px 0 64px;position:relative;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center}
+    .eyebrow{display:inline-flex;align-items:center;gap:10px;border:1px solid rgba(122,153,255,.28);background:rgba(74,120,255,.10);padding:10px 14px;border-radius:999px;font-size:13px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#bdd0ff;margin-bottom:18px}
+    h1{font-size:clamp(40px, 7vw, 74px);line-height:.98;letter-spacing:-.05em;margin:0 0 18px}
+    .accent{background:linear-gradient(90deg,#ecf2ff 0%, #aecdff 38%, #8f79ff 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .lead{font-size:20px;line-height:1.65;color:var(--muted);max-width:640px;margin:0 0 30px}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:28px}
+    .btn-primary,.btn-secondary{padding:16px 22px;border-radius:18px;font-weight:800;display:inline-flex;align-items:center;justify-content:center}
+    .btn-primary{background:linear-gradient(135deg,var(--blue),#2f66ff);box-shadow:0 14px 28px rgba(46,102,255,.3)}
+    .btn-secondary{background:rgba(255,255,255,.05);border:1px solid var(--line);color:#e9efff}
+    .hero-points{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;max-width:700px}
+    .mini-point{padding:16px 18px;border-radius:18px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);color:#dde7ff}
+    .mini-point strong{display:block;font-size:18px;margin-bottom:5px}
+    .mini-point span{font-size:13px;color:var(--muted)}
+
+    .device-stage{position:relative;min-height:650px}
+    .glow{position:absolute;inset:auto 0 0 0;height:280px;background:radial-gradient(circle, rgba(130,87,255,.26), transparent 60%);filter:blur(24px)}
+    .hero-card{position:absolute;border-radius:32px;overflow:hidden;border:1px solid rgba(255,255,255,.08);box-shadow:var(--shadow);background:var(--card)}
+    .hero-card img{width:100%;height:100%;object-fit:cover}
+    .hero-main{width:78%;right:0;top:38px}
+    .hero-main img{aspect-ratio:1.23/1}
+    .hero-side{width:37%;left:0;top:0}
+    .hero-side img{aspect-ratio:.73/1}
+    .floating-chip{position:absolute;padding:12px 16px;border-radius:18px;background:rgba(8,18,35,.92);border:1px solid rgba(255,255,255,.08);box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+    .chip-a{left:4%;bottom:28%}
+    .chip-b{right:8%;bottom:2%}
+    .floating-chip strong{display:block;font-size:15px;margin-bottom:4px}
+    .floating-chip span{font-size:13px;color:var(--muted)}
+
+    .section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:28px}
+    .section-head h2{font-size:42px;line-height:1.05;letter-spacing:-.04em;margin:0 0 10px}
+    .section-head p{margin:0;color:var(--muted);max-width:720px;line-height:1.7}
+
+    .features{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+    .feature{background:linear-gradient(180deg, rgba(18,31,58,.95), rgba(12,21,40,.95));border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:var(--shadow)}
+    .feature-icon{width:52px;height:52px;border-radius:16px;display:grid;place-items:center;margin-bottom:16px;background:linear-gradient(135deg, rgba(74,120,255,.18), rgba(139,92,255,.18));border:1px solid rgba(133,153,255,.18)}
+    .feature h3{margin:0 0 12px;font-size:19px}
+    .feature p{margin:0;color:var(--muted);font-size:15px;line-height:1.7}
+
+    .showcase-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+    .shot{background:linear-gradient(180deg, rgba(14,26,49,.96), rgba(11,20,37,.96));border:1px solid var(--line);border-radius:28px;overflow:hidden;box-shadow:var(--shadow)}
+    .shot-media{padding:16px 16px 0}
+    .shot-media img{width:100%;height:auto;border-radius:20px;border:1px solid rgba(255,255,255,.07)}
+    .shot-copy{padding:20px 22px 24px}
+    .shot-copy h3{margin:0 0 10px;font-size:24px;letter-spacing:-.03em}
+    .shot-copy p{margin:0;color:var(--muted);line-height:1.7;font-size:15px}
+    .badge{display:inline-flex;align-items:center;gap:8px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);padding:8px 12px;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#cbd9ff;margin-bottom:14px}
+
+    .wide-stack{display:grid;gap:22px}
+    .wide-shot{background:linear-gradient(180deg, rgba(14,26,49,.96), rgba(11,20,37,.96));border:1px solid var(--line);border-radius:30px;overflow:hidden;box-shadow:var(--shadow)}
+    .wide-shot .top{padding:24px 24px 0}
+    .wide-shot .top h3{margin:0 0 10px;font-size:28px;letter-spacing:-.04em}
+    .wide-shot .top p{margin:0;color:var(--muted);line-height:1.75}
+    .wide-shot .image-wrap{padding:18px 18px 18px}
+    .wide-shot img{width:100%;border-radius:22px;border:1px solid rgba(255,255,255,.07)}
+
+    .pricing-wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:stretch}
+    .pricing-copy{background:linear-gradient(180deg, rgba(16,30,57,.95), rgba(10,18,35,.96));border:1px solid var(--line);border-radius:28px;padding:30px;box-shadow:var(--shadow)}
+    .pricing-copy h3{font-size:34px;letter-spacing:-.04em;margin:0 0 10px}
+    .pricing-copy p{margin:0;color:var(--muted);line-height:1.8}
+    .price-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+    .price{background:linear-gradient(180deg, rgba(19,34,64,.95), rgba(10,19,37,.96));border:1px solid rgba(133,153,255,.18);border-radius:28px;padding:28px;box-shadow:var(--shadow);display:flex;flex-direction:column;justify-content:space-between}
+    .price .label{font-size:13px;text-transform:uppercase;letter-spacing:.12em;color:#c4d3ff;font-weight:800;margin-bottom:10px}
+    .price .num{font-size:54px;font-weight:900;line-height:1;letter-spacing:-.05em;margin-bottom:8px}
+    .price .suffix{font-size:17px;color:var(--muted)}
+    .price ul{margin:22px 0 0;padding:0;list-style:none;display:grid;gap:10px;color:#dbe7ff}
+    .price li{display:flex;gap:10px;align-items:flex-start;font-size:15px}
+    .price .cta{margin-top:24px;padding:15px 18px;border-radius:16px;text-align:center;font-weight:800;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08)}
+    .price.featured{background:linear-gradient(180deg, rgba(50,51,116,.95), rgba(20,23,60,.96));border-color:rgba(164,121,255,.32)}
+    .price.featured .cta{background:linear-gradient(135deg,var(--violet),#5b6cff);border:none;box-shadow:0 14px 30px rgba(91,108,255,.28)}
+
+    .footer-cta{background:linear-gradient(135deg, rgba(14,24,49,.97), rgba(31,23,72,.96));border:1px solid rgba(255,255,255,.08);border-radius:32px;padding:34px;box-shadow:var(--shadow);display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+    .footer-cta h3{margin:0 0 8px;font-size:34px;letter-spacing:-.04em}
+    .footer-cta p{margin:0;color:var(--muted);line-height:1.7;max-width:720px}
+    footer{padding:30px 0 50px;color:#8693b2;font-size:14px}
+
+    @media (max-width: 1100px) {
+      .hero-grid,.pricing-wrap{grid-template-columns:1fr}
+      .features{grid-template-columns:repeat(2,minmax(0,1fr))}
+      .showcase-grid{grid-template-columns:1fr}
+      .device-stage{min-height:560px}
+      .hero-main{position:relative;width:100%;top:auto;right:auto}
+      .hero-side{position:absolute;width:34%;left:-2%;top:-2%}
+    }
+
+    @media (max-width: 820px) {
+      .nav-links{display:none;position:absolute;left:16px;right:16px;top:92px;padding:18px;background:rgba(10,19,35,.98);border:1px solid var(--line);border-radius:20px;flex-direction:column;align-items:flex-start;box-shadow:var(--shadow)}
+      .nav-links.open{display:flex}
+      .menu-btn{display:inline-flex}
+      .cta-top{display:none}
+      .hero-points,.features,.price-cards{grid-template-columns:1fr}
+      .device-stage{min-height:auto;padding-top:14px}
+      .hero-card,.hero-side,.hero-main{position:relative;width:100%;left:auto;right:auto;top:auto}
+      .hero-side{margin-bottom:18px}
+      .glow{display:none}
+      .floating-chip{position:relative;left:auto;right:auto;bottom:auto;margin-top:14px}
+      .section{padding:70px 0}
+      .section-head{align-items:flex-start;flex-direction:column}
+      .section-head h2{font-size:34px}
+      .wide-shot .top h3{font-size:24px}
+      .footer-cta h3{font-size:28px}
+    }
+  
+    /* --- dorade dizajna --- */
+    body{-webkit-font-smoothing:antialiased;line-height:1.5}
+    header.scrolled{background:rgba(5,12,24,.9);box-shadow:0 10px 30px rgba(0,0,0,.3)}
+    .nav-links a{opacity:.85;transition:opacity .2s,color .2s}
+    .nav-links a:hover{opacity:1;color:#fff}
+    .cta-top,.btn-primary,.btn-secondary,.price .cta{transition:transform .2s ease,box-shadow .2s ease,background .2s ease;cursor:pointer;gap:10px}
+    .cta-top:hover,.btn-primary:hover,.price .cta:hover{transform:translateY(-2px);box-shadow:0 18px 36px rgba(46,102,255,.4)}
+    .btn-secondary:hover{background:rgba(255,255,255,.1)}
+    .hero::before{content:"";position:absolute;width:620px;height:620px;left:-180px;top:-260px;background:radial-gradient(circle,rgba(74,120,255,.28),transparent 65%);filter:blur(30px);pointer-events:none}
+    .hero::after{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:56px 56px;mask-image:radial-gradient(ellipse at 50% 30%,#000 20%,transparent 70%);-webkit-mask-image:radial-gradient(ellipse at 50% 30%,#000 20%,transparent 70%);pointer-events:none;z-index:-1}
+    .eyebrow .dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 12px var(--green)}
+    .hero-card{transition:transform .5s ease}
+    .device-stage:hover .hero-main{transform:translateY(-6px)}
+    .feature,.shot,.wide-shot,.price,.mini-point{transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}
+    .feature:hover,.shot:hover,.price:hover,.mini-point:hover{transform:translateY(-4px);border-color:rgba(133,153,255,.35);box-shadow:0 26px 60px rgba(0,0,0,.45),0 0 0 1px rgba(114,150,255,.08)}
+    .wide-shot:hover{border-color:rgba(133,153,255,.3)}
+    .shot-media img,.wide-shot img{transition:transform .4s ease}
+    .shot:hover .shot-media img{transform:scale(1.015)}
+    .features.six{grid-template-columns:repeat(3,minmax(0,1fr))}
+    .section-head{justify-content:center;text-align:center}
+    .section-head p{margin:0 auto}
+    .kicker{display:inline-block;font-size:13px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);margin-bottom:12px}
+    .pricing-head{text-align:center;margin-bottom:30px}
+    .pricing-head h2{font-size:42px;letter-spacing:-.04em;margin:0 0 10px}
+    .pricing-head p{color:var(--muted);margin:0}
+    .plans{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;max-width:1000px;margin:0 auto}
+    .plan{background:linear-gradient(180deg, rgba(16,30,57,.95), rgba(10,18,35,.96));border:1px solid var(--line);border-radius:30px;padding:28px;box-shadow:var(--shadow)}
+    .plan.pro{border-color:rgba(164,121,255,.35);background:linear-gradient(180deg, rgba(36,36,92,.95), rgba(14,18,46,.96));position:relative}
+    .plan h3{margin:0 0 6px;font-size:28px;letter-spacing:-.03em}
+    .plan .desc{margin:0 0 20px;color:var(--muted)}
+    .plan .price-cards{grid-template-columns:1fr 1fr;gap:14px}
+    .price{padding:22px}
+    .price .num{font-size:44px}
+    .price.featured{position:relative}
+    .reco{position:absolute;top:-12px;right:16px;padding:6px 12px;border-radius:999px;background:linear-gradient(135deg,var(--violet),#5b6cff);font-size:11px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;box-shadow:0 10px 22px rgba(91,108,255,.35)}
+    .plan ul{margin:20px 0 0;padding:0;list-style:none;display:grid;gap:10px;color:#dbe7ff}
+    .price .cta{display:block}
+    .plan-cta{display:block;margin-top:22px;padding:15px 18px;border-radius:16px;text-align:center;font-weight:800;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);transition:transform .2s,box-shadow .2s,background .2s}
+    .plan-cta:hover{transform:translateY(-2px);background:rgba(255,255,255,.1)}
+    .plan-cta.pro{background:linear-gradient(135deg,var(--violet),#5b6cff);border:none;box-shadow:0 14px 30px rgba(91,108,255,.28)}
+    .plan-cta.pro:hover{box-shadow:0 18px 38px rgba(91,108,255,.4)}
+    .price-note{text-align:center;color:var(--muted);font-size:14px;margin-top:18px}
+    .footer-cta{display:block}
+    .footer-cta .row{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+    .footer-cta .actions{display:flex;gap:12px;flex-wrap:wrap}
+    footer .container{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;border-top:1px solid rgba(255,255,255,.06);padding-top:24px}
+    .contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:36px;align-items:start}
+    .contact-copy p{margin-bottom:18px}
+    .contact-points{list-style:none;padding:0;margin:0;display:grid;gap:10px;color:#dbe7ff}
+    .cform{display:grid;gap:14px}
+    .frow{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .cform label{display:grid;gap:7px;font-size:14px;font-weight:700;color:#dbe7ff}
+    .cform .opt{font-weight:500;color:var(--muted)}
+    .cform input,.cform textarea{width:100%;font:inherit;font-size:16px;color:var(--text);background:rgba(5,12,24,.55);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:13px 15px;transition:border-color .2s,box-shadow .2s}
+    .cform textarea{resize:vertical;min-height:110px}
+    .cform input::placeholder,.cform textarea::placeholder{color:#6f7d9c}
+    .cform input:focus,.cform textarea:focus{outline:none;border-color:var(--blue-2);box-shadow:0 0 0 4px rgba(74,120,255,.2)}
+    .cform button{border:0;color:#fff;font:inherit;font-weight:800;font-size:16px;justify-self:start;padding:16px 28px}
+    .hp{position:absolute!important;left:-9999px!important;width:1px;height:1px;opacity:0}
+    .thanks{display:none;text-align:center;padding:36px 24px;border-radius:22px;background:rgba(36,209,126,.08);border:1px solid rgba(36,209,126,.3)}
+    .thanks:target{display:block}
+    .thanks:target + .cform{display:none}
+    .thanks-ic{width:56px;height:56px;margin:0 auto 12px;border-radius:50%;display:grid;place-items:center;background:var(--green);color:#04210f;font-size:28px;font-weight:900}
+    .thanks h4{margin:0 0 6px;font-size:22px}
+    .thanks p{margin:0 auto}
+    @media (max-width:820px){.contact-grid,.frow{grid-template-columns:1fr}.cform button{justify-self:stretch}}
+    .carousel{position:relative;outline:none}
+    .viewport{overflow:hidden;border-radius:30px}
+    .track{display:flex;transition:transform .6s cubic-bezier(.22,.8,.2,1);touch-action:pan-y}
+    .slide{flex:0 0 100%;margin:0;padding:0 4px}
+    .frame{max-width:1040px;margin:0 auto;border-radius:22px;overflow:hidden;background:#0b1629;border:1px solid rgba(255,255,255,.1);box-shadow:0 30px 80px rgba(0,0,0,.5),0 0 0 1px rgba(114,150,255,.06),0 0 80px rgba(74,120,255,.12)}
+    .frame-bar{display:flex;align-items:center;gap:7px;padding:11px 16px;background:rgba(255,255,255,.04);border-bottom:1px solid rgba(255,255,255,.07)}
+    .frame-bar i{width:11px;height:11px;border-radius:50%;background:#ff5f57}.frame-bar i:nth-child(2){background:#febc2e}.frame-bar i:nth-child(3){background:#28c840}
+    .frame-bar span{flex:1;text-align:center;font-size:12px;color:#8fa0c4;margin-right:40px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .frame-img{aspect-ratio:16/10;display:grid;place-items:center;background:#08111f}
+    .frame-img img{width:100%;height:100%;object-fit:contain}
+    .slide figcaption{text-align:center;margin:22px auto 0;max-width:640px}
+    .slide figcaption strong{display:block;font-size:24px;letter-spacing:-.03em;margin-bottom:6px}
+    .slide figcaption span{color:var(--muted)}
+    .car-btn{position:absolute;top:calc(50% - 60px);transform:translateY(-50%);width:52px;height:52px;border-radius:50%;border:1px solid rgba(255,255,255,.14);background:rgba(8,18,35,.8);backdrop-filter:blur(10px);color:#fff;font-size:30px;line-height:1;cursor:pointer;display:grid;place-items:center;transition:background .2s,transform .2s,border-color .2s;box-shadow:var(--shadow)}
+    .car-btn:hover{background:rgba(74,120,255,.35);border-color:rgba(133,153,255,.5)}
+    .car-btn.prev{left:6px}.car-btn.next{right:6px}
+    .dots{display:flex;justify-content:center;gap:9px;margin-top:22px}
+    .dots button{width:9px;height:9px;padding:0;border-radius:999px;border:0;background:rgba(255,255,255,.22);cursor:pointer;transition:width .3s,background .3s}
+    .dots button[aria-selected="true"]{width:30px;background:linear-gradient(90deg,var(--blue),var(--violet))}
+    .car-progress{max-width:200px;height:3px;margin:14px auto 0;border-radius:3px;background:rgba(255,255,255,.08);overflow:hidden}
+    .car-progress i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--blue),var(--cyan))}
+    .car-progress.run i{animation:carprog 4s linear forwards}
+    .carousel.paused .car-progress i{animation-play-state:paused}
+    @keyframes carprog{from{width:0}to{width:100%}}
+    @media (max-width:820px){.car-btn{width:42px;height:42px;font-size:24px;top:calc(50% - 70px)}.slide figcaption strong{font-size:20px}.frame-bar span{display:none}}
+    @media (prefers-reduced-motion: reduce){.track{transition:none}.car-progress{display:none}}
+    .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+    .reveal.in{opacity:1;transform:none}
+    @media (prefers-reduced-motion: reduce){.reveal{opacity:1;transform:none;transition:none}*{transition:none!important}}
+    @media (max-width:1100px){.features.six{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media (max-width:820px){
+      .features.six,.plans{grid-template-columns:1fr}
+      .plan .price-cards{grid-template-columns:1fr 1fr}
+      .pricing-head h2{font-size:34px}
+      .hero-actions a{flex:1 1 100%}
+      .nav{height:72px}
+      .nav-links{top:80px}
+    }
+    @media (max-width:420px){.plan .price-cards{grid-template-columns:1fr}.price .num{font-size:40px}}
+  </style>
+</head>
+<body>
+  <header id="hdr">
+    <div class="container nav">
+      <a href="#top" class="brand">
+        <div class="brand-mark"><span>⚙</span></div>
+        <span>DH-Logix</span>
+      </a>
+      <nav id="mobileNav" class="nav-links">
+        <a href="#prednosti">Prednosti</a>
+        <a href="#pregled">Pregled</a>
+        <a href="#moduli">Moduli</a>
+        <a href="#ekrani">Izvještaji</a>
+        <a href="#cijene">Cijene</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+      <a href="#kontakt" class="cta-top">Zatraži prezentaciju</a>
+      <button class="menu-btn" aria-label="Izbornik" onclick="document.getElementById('mobileNav').classList.toggle('open')">☰</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow"><span class="dot"></span>Program za autoservise</div>
+          <h1>Sve konce vašeg <span class="accent">autoservisa</span> držite na jednom mjestu</h1>
+          <p class="lead">Radni nalozi, vozila i klijenti, ponude, računi i dobavljači u jednom programu. Uvijek znate što je u radu, što je naplaćeno i koliko ste stvarno zaradili.</p>
+          <div class="hero-actions">
+            <a href="#kontakt" class="btn-primary">Zatraži demo</a>
+            <a href="#pregled" class="btn-secondary">Pogledaj program</a>
+          </div>
+          <div class="hero-points">
+            <div class="mini-point"><strong>Radni nalozi</strong><span>Od prijema vozila do predaje i naplate.</span></div>
+            <div class="mini-point"><strong>Dobavljači</strong><span>Trošak dijelova, dug i stvarna zarada.</span></div>
+            <div class="mini-point"><strong>Mobilna aplikacija</strong><span>Pregled posla i na mobitelu.</span></div>
+          </div>
+        </div>
+
+        <div class="device-stage">
+          <div class="glow"></div>
+          <div class="hero-card hero-side"><img src="img/mobilni.webp" alt="DH-Logix na mobitelu" width="640" height="360" /></div>
+          <div class="hero-card hero-main"><img src="img/izvjestaji-rezultat.webp" alt="DH-Logix izvještaj zarade" width="1600" height="1000" /></div>
+          <div class="floating-chip chip-a"><strong>📤 Narudžba dijelova</strong><span>WhatsApp ili e-mail, s VIN-om vozila.</span></div>
+          <div class="floating-chip chip-b"><strong>💶 Ostalo vama</strong><span>Zarada nakon plaćenih dobavljača.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="prednosti">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="kicker">Zašto DH-Logix</div>
+            <h2>Manje papira, više reda u servisu</h2>
+            <p>Sve što servis svakodnevno radi, na jednom mjestu i jednostavno za korištenje.</p>
+          </div>
+        </div>
+        <div class="features six">
+          <article class="feature reveal"><div class="feature-icon">🧾</div><h3>Radni nalozi</h3><p>Pratite svako vozilo od prijema do predaje: status, klijent, vozilo, rad, dijelovi i iznos.</p></article>
+          <article class="feature reveal"><div class="feature-icon">🚗</div><h3>Vozila i klijenti</h3><p>Povijest svakog vozila i klijenta uvijek pri ruci, s pretragom po imenu ili registraciji.</p></article>
+          <article class="feature reveal"><div class="feature-icon">📝</div><h3>Ponude i računi</h3><p>Izradite ponudu, a nakon posla račun. Odmah vidite što je plaćeno, a što nije.</p></article>
+          <article class="feature reveal"><div class="feature-icon">📤</div><h3>Narudžba dijelova</h3><p>Odaberete dijelove s naloga i pošaljete dobavljaču preko WhatsAppa ili e-maila, zajedno s podacima vozila i VIN-om.</p></article>
+          <article class="feature reveal"><div class="feature-icon">📊</div><h3>Zarada i dobavljači</h3><p>Prihod, plaćeno dobavljačima i koliko vam ostaje. Dug prema svakom dobavljaču na jednom ekranu.</p></article>
+          <article class="feature reveal"><div class="feature-icon">♻️</div><h3>Koš za obrisano</h3><p>Slučajno obrisan nalog, termin, ponudu, klijenta ili vozilo vratite jednim klikom.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="pregled">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="kicker">Pregled</div>
+            <h2>Kratki pregled programa</h2>
+            <p>Prođite kroz najvažnije ekrane DH-Logixa.</p>
+          </div>
+        </div>
+        <div class="carousel reveal" id="carousel" aria-roledescription="carousel" aria-label="Pregled programa" tabindex="0">
+          <div class="viewport"><div class="track">
+          <figure class="slide" role="group" aria-roledescription="slajd" aria-label="1 / 9">
+            <div class="frame"><div class="frame-bar"><i></i><i></i><i></i><span>DH-Logix · Rezultat mjeseca</span></div><div class="frame-img"><img src="img/izvjestaji-rezultat.webp" alt="Rezultat mjeseca" decoding="async" /></div></div>
+            <figcaption><strong>Rezultat mjeseca</strong><span>Prihod, plaćeno dobavljačima i koliko vam ostaje.</span></figcaption>
+          </figure>
+          <figure class="slide" role="group" aria-roledescription="slajd" aria-label="2 / 9">
+            <div class="frame"><div class="frame-bar"><i></i><i></i><i></i><span>DH-Logix · Zarada i dobavljači</span></div><div class="frame-img"><img data-src="img/zarada-dobavljaci.webp" alt="Zarada i dobavljači" decoding="async" /></div></div>
+            <figcaption><strong>Zarada i dobavljači</strong><span>Dug prema svakom dobavljaču zbraja se sam iz naloga.</span></figcaption>
+          </figure>
+          <figure class="slide" role="group" aria-roledescription="slajd" aria-label="3 / 9">
+            <div class="frame"><div class="frame-bar"><i></i><i></i><i></i><span>DH-Logix · Grafovi zarade</span></div><div class="frame-img"><img data-src="img/grafovi.webp" alt="Grafovi zarade" decoding="async" /></div></div>
+            <figcaption><strong>Grafovi zarade</strong><span>Kretanje zarade kroz mjesece i dug po dobavljačima.</span></figcaption>
+          </figure>
+          <figure class="slide" role="group" aria-roledescription="slajd" aria-label="4 / 9">
+            <div class="frame"><div class="frame-bar"><i></i><i></i><i></i><span>DH-Logix · Koš za obrisano</span></div><div class="frame-img"><img data-src="img/kos.webp" alt="Koš za obrisano" decoding="async" /></div></div>
+            <figcaption><strong>Koš za obrisano</strong><span>Nalozi, termini, ponude, klijenti i vozila vraćaju se jednim klikom.</span></figcaption>
+          </figure>
+          <figure class="slide" role="group" aria-roledescription="slajd" aria-label="5 / 9">
+            <div class="frame"><div class="frame-bar"><i></i><i></i><i></i><span>DH-Logix · Narudžba dijelova</span></div><div class="frame-img"><img data-src="img/narudzba-dijelova.webp" alt="Narudžba dijelova" decoding="async" /></div></div>
+            <figcaption><strong>Narudžba dijelova</strong><span>Odaberete dijelove i pošaljete dobavljaču, s VIN-om vozila.</span></figcaption>
+          </figure>
+          <figure class="slide" role="group" aria-roledescription="slajd" aria-label="6 / 9">
+            <div class="frame"><div class="frame-bar"><i></i><i></i><i></i><span>DH-Logix · Izvještaji</span></div><div class="frame-img"><img data-src="img/izvjestaji.webp" alt="Izvještaji" decoding="async" /></div></div>
+            <figcaption><strong>Izvještaji</strong><span>Prihod od rada i dijelova, troškovi i udio zarade.</span></figcaption>
+          </figure>
+          <figure class="slide" role="group" aria-roledescription="slajd" aria-label="7 / 9">
+            <div class="frame"><div class="frame-bar"><i></i><i></i><i></i><span>DH-Logix · Po dobavljačima</span></div><div class="frame-img"><img data-src="img/po-dobavljacima.webp" alt="Po dobavljačima" decoding="async" /></div></div>
+            <figcaption><strong>Po dobavljačima</strong><span>Svaki račun dobavljača sa stavkama i nalogom.</span></figcaption>
+          </figure>
+          <figure class="slide" role="group" aria-roledescription="slajd" aria-label="8 / 9">
+            <div class="frame"><div class="frame-bar"><i></i><i></i><i></i><span>DH-Logix · Računi</span></div><div class="frame-img"><img data-src="img/racuni.webp" alt="Računi" decoding="async" /></div></div>
+            <figcaption><strong>Računi</strong><span>Odmah vidite što je plaćeno, a što nije.</span></figcaption>
+          </figure>
+          <figure class="slide" role="group" aria-roledescription="slajd" aria-label="9 / 9">
+            <div class="frame"><div class="frame-bar"><i></i><i></i><i></i><span>DH-Logix · Mobilna aplikacija</span></div><div class="frame-img"><img data-src="img/mobilni.webp" alt="Mobilna aplikacija" decoding="async" /></div></div>
+            <figcaption><strong>Mobilna aplikacija</strong><span>Pregled posla i na mobitelu.</span></figcaption>
+          </figure>
+          </div></div>
+          <button class="car-btn prev" type="button" aria-label="Prethodni slajd">‹</button>
+          <button class="car-btn next" type="button" aria-label="Sljedeći slajd">›</button>
+          <div class="dots" role="tablist"></div>
+          <div class="car-progress"><i></i></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="moduli">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="kicker">Moduli</div>
+            <h2>Pogledajte kako program izgleda</h2>
+            <p>Pravi ekrani iz DH-Logixa, s primjerom podataka.</p>
+          </div>
+        </div>
+        <div class="showcase-grid">
+          <article class="shot reveal">
+            <div class="shot-media"><img src="img/zarada-dobavljaci.webp" alt="Zarada i dobavljači" loading="lazy" width="1536" height="1024" /></div>
+            <div class="shot-copy">
+              <div class="badge">Zarada i dobavljači</div>
+              <h3>Koliko dugujete i koliko ste zaradili</h3>
+              <p>Dug prema dobavljačima zbraja se sam iz radnih naloga. Kad platite, samo označite „plaćeno”.</p>
+            </div>
+          </article>
+          <article class="shot reveal">
+            <div class="shot-media"><img src="img/grafovi.webp" alt="Grafovi zarade i duga po dobavljačima" loading="lazy" width="1448" height="1086" /></div>
+            <div class="shot-copy">
+              <div class="badge">Grafovi</div>
+              <h3>Kretanje zarade kroz mjesece</h3>
+              <p>Graf zarade i krug duga po dobavljačima: na prvi pogled vidite kako servis posluje.</p>
+            </div>
+          </article>
+          <article class="shot reveal">
+            <div class="shot-media"><img src="img/narudzba-dijelova.webp" alt="Narudžba dijelova" loading="lazy" width="1600" height="1000" /></div>
+            <div class="shot-copy">
+              <div class="badge">Narudžba dijelova</div>
+              <h3>Narudžba dijelova u par klikova</h3>
+              <p>Kvačicom odaberete dijelove, izaberete dobavljača i pošaljete preko WhatsAppa ili e-maila. Poruka je tekst, pa dobavljač lako kopira VIN.</p>
+            </div>
+          </article>
+          <article class="shot reveal">
+            <div class="shot-media"><img src="img/kos.webp" alt="Koš s obrisanim stavkama" loading="lazy" width="1600" height="1007" /></div>
+            <div class="shot-copy">
+              <div class="badge">Koš</div>
+              <h3>Ništa se ne gubi slučajno</h3>
+              <p>Obrisani nalozi, termini, ponude, klijenti i vozila čuvaju se u košu i vraćaju jednim klikom.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="ekrani">
+      <div class="container wide-stack">
+        <div class="section-head reveal">
+          <div>
+            <div class="kicker">Izvještaji i računi</div>
+            <h2>Brojke servisa, jasno i bez računanja</h2>
+            <p>Mjesečni pregled prihoda, troškova i zarade, uz detalje po svakom dobavljaču.</p>
+          </div>
+        </div>
+        <article class="wide-shot reveal">
+          <div class="top"><div class="badge">Izvještaji</div><h3>Prihod, trošak dobavljača i zarada po mjesecima</h3><p>Prihod od rada i od dijelova, plaćeno dobavljačima, zarada i udio zarade. Izvještaj možete ispisati ili spremiti kao PDF.</p></div>
+          <div class="image-wrap"><img src="img/izvjestaji.webp" alt="Izvještaji i zarada" loading="lazy" width="1600" height="944" /></div>
+        </article>
+        <article class="wide-shot reveal">
+          <div class="top"><div class="badge">Po dobavljačima</div><h3>Svaki račun dobavljača na svom mjestu</h3><p>Za svakog dobavljača vidite račune, stavke, nalog na koji se odnose i ukupan iznos u mjesecu.</p></div>
+          <div class="image-wrap"><img src="img/po-dobavljacima.webp" alt="Računi po dobavljačima" loading="lazy" width="1600" height="1307" /></div>
+        </article>
+        <article class="wide-shot reveal">
+          <div class="top"><div class="badge">Računi</div><h3>Pregled računa i naplate</h3><p>Popis računa sa statusom plaćeno, neplaćeno ili djelomično, pa odmah znate tko vam još duguje.</p></div>
+          <div class="image-wrap"><img src="img/racuni.webp" alt="Popis računa" loading="lazy" width="1280" height="720" /></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="cijene">
+      <div class="container">
+        <div class="pricing-head reveal">
+          <div class="kicker">Cijene</div>
+          <h2>Jednostavne i jasne cijene</h2>
+          <p>Birate paket i plaćate mjesečno ili godišnje.</p>
+        </div>
+        <div class="plans">
+          <article class="plan reveal">
+            <h3>Osnovni</h3>
+            <p class="desc">Za svakodnevni rad servisa.</p>
+            <div class="price-cards">
+              <div class="price"><div><div class="label">Mjesečno</div><div class="num">50 €</div><div class="suffix">mjesečno</div></div></div>
+              <div class="price"><div><div class="label">Godišnje</div><div class="num">600 €</div><div class="suffix">12 mjeseci</div></div></div>
+            </div>
+            <ul>
+              <li>✓ Sve osnovne funkcije</li>
+              <li>✓ Plaćanje mjesečno ili godišnje</li>
+            </ul>
+            <a class="plan-cta" href="#kontakt">Zatraži demo</a>
+          </article>
+          <article class="plan pro reveal">
+            <h3>Pro</h3>
+            <p class="desc">Cijeli DH-Logix, sa svim funkcijama.</p>
+            <div class="price-cards">
+              <div class="price"><div><div class="label">Mjesečno</div><div class="num">70 €</div><div class="suffix">mjesečno</div></div></div>
+              <div class="price featured"><span class="reco">Preporučeno</span><div><div class="label">Godišnje</div><div class="num">840 €</div><div class="suffix">12 mjeseci</div></div></div>
+            </div>
+            <ul>
+              <li>✓ Sve funkcije</li>
+              <li>✓ Plaćanje mjesečno ili godišnje</li>
+            </ul>
+            <a class="plan-cta pro" href="#kontakt">Zatraži demo</a>
+          </article>
+        </div>
+        <p class="price-note">Niste sigurni koji paket? Javite se i pokazat ćemo vam program uživo.</p>
+      </div>
+    </section>
+
+    <section class="section" id="kontakt" style="padding-top:0">
+      <div class="container footer-cta reveal">
+        <div class="contact-grid">
+          <div class="contact-copy">
+            <div class="kicker">Kontakt</div>
+            <h3>Pogledajte DH-Logix na svom servisu</h3>
+            <p>Pošaljite upit i javit ćemo vam se da dogovorimo kratku prezentaciju programa.</p>
+            <ul class="contact-points">
+              <li>✓ Prezentacija programa uživo</li>
+              <li>✓ Odgovor na sva pitanja o paketima</li>
+              <li>✓ Bez obveze</li>
+            </ul>
+          </div>
+          <div>
+            <div id="hvala" class="thanks">
+              <div class="thanks-ic">✓</div>
+              <h4>Hvala na upitu!</h4>
+              <p>Poruka je poslana. Javit ćemo vam se uskoro.</p>
+            </div>
+            <form class="cform" action="https://formsubmit.co/REPLACE_WITH_ALIAS" method="POST">
+              <input type="hidden" name="_subject" value="DH-Logix upit s web stranice" />
+              <input type="hidden" name="_captcha" value="true" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_next" value="https://dadolinoo.github.io/autoservis-pro-releases/web/#hvala" />
+              <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+              <div class="frow">
+                <label>Ime<input type="text" name="Ime" required autocomplete="name" placeholder="Vaše ime" /></label>
+                <label>Naziv servisa<input type="text" name="Naziv servisa" required autocomplete="organization" placeholder="npr. Autoservis Primjer" /></label>
+              </div>
+              <div class="frow">
+                <label><span>Telefon <span class="opt">(neobavezno)</span></span><input type="tel" name="Telefon" autocomplete="tel" placeholder="Broj telefona" /></label>
+                <label>E-mail<input type="email" name="E-mail" required autocomplete="email" placeholder="vas@email.hr" /></label>
+              </div>
+              <label>Poruka<textarea name="Poruka" rows="4" required placeholder="Npr. zanima me demo programa za moj servis."></textarea></label>
+              <button type="submit" class="btn-primary">Pošalji upit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container"><span>© 2026 DH-Logix</span><a href="#top">Na vrh ↑</a></div>
+  </footer>
+  <script>
+    (function(){
+      var h=document.getElementById('hdr');
+      addEventListener('scroll',function(){h.classList.toggle('scrolled',scrollY>10)},{passive:true});
+      document.querySelectorAll('#mobileNav a').forEach(function(a){a.addEventListener('click',function(){document.getElementById('mobileNav').classList.remove('open')})});
+      var els=document.querySelectorAll('.reveal');
+      if(!('IntersectionObserver' in window)||location.hash==='#static'){els.forEach(function(e){e.classList.add('in')});return;}
+      var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+      els.forEach(function(e){io.observe(e)});
+    })();
+
+    (function(){
+      var c=document.getElementById('carousel'); if(!c) return;
+      var track=c.querySelector('.track'), slides=[].slice.call(c.querySelectorAll('.slide')), dotsEl=c.querySelector('.dots'), prog=c.querySelector('.car-progress');
+      var n=slides.length, i=0, timer=null, paused=false, inView=false, DELAY=4000;
+      var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+      function load(k){var im=slides[(k+n)%n].querySelector('img[data-src]'); if(im){im.src=im.getAttribute('data-src'); im.removeAttribute('data-src');}}
+      var dots=slides.map(function(_,k){var b=document.createElement('button');b.type='button';b.setAttribute('role','tab');b.setAttribute('aria-label','Slajd '+(k+1));b.onclick=function(){go(k,true)};dotsEl.appendChild(b);return b;});
+      function go(k,user){i=(k+n)%n; load(i); load(i+1); load(i-1);
+        track.style.transform='translateX('+(-100*i)+'%)';
+        dots.forEach(function(d,j){d.setAttribute('aria-selected',j===i?'true':'false')});
+        slides.forEach(function(s,j){s.setAttribute('aria-hidden',j===i?'false':'true')});
+        c.setAttribute('data-active',i); schedule();}
+      function schedule(){clearTimeout(timer); prog.classList.remove('run'); if(reduce||paused||!inView) return; void prog.offsetWidth; prog.classList.add('run'); timer=setTimeout(function(){go(i+1)},DELAY);}
+      function pause(p){paused=p; c.classList.toggle('paused',p); if(p){clearTimeout(timer);prog.classList.remove('run')} else schedule();}
+      c.querySelector('.prev').onclick=function(){go(i-1,true)};
+      c.querySelector('.next').onclick=function(){go(i+1,true)};
+      c.addEventListener('mouseenter',function(){pause(true)});
+      c.addEventListener('mouseleave',function(){pause(false)});
+      c.addEventListener('focusin',function(){pause(true)});
+      c.addEventListener('focusout',function(){pause(false)});
+      c.addEventListener('keydown',function(e){if(e.key==='ArrowLeft'){go(i-1,true);e.preventDefault()} if(e.key==='ArrowRight'){go(i+1,true);e.preventDefault()}});
+      var x0=null,y0=0,resumeT=null;
+      c.addEventListener('touchstart',function(e){x0=e.touches[0].clientX;y0=e.touches[0].clientY;clearTimeout(resumeT);pause(true)},{passive:true});
+      c.addEventListener('touchend',function(e){if(x0!==null){var dx=e.changedTouches[0].clientX-x0,dy=e.changedTouches[0].clientY-y0; if(Math.abs(dx)>40&&Math.abs(dx)>Math.abs(dy)) go(i+(dx<0?1:-1),true);} x0=null; resumeT=setTimeout(function(){pause(false)},6000)},{passive:true});
+      document.addEventListener('visibilitychange',function(){if(document.hidden){clearTimeout(timer)} else schedule()});
+      var force=(location.hash==='#static'||location.hash==='#autoplay');
+      if('IntersectionObserver' in window){new IntersectionObserver(function(en){inView=force||en[0].isIntersecting; schedule()},{threshold:.3}).observe(c)} else inView=true;
+      if(force) inView=true;
+      go(0);
+    })();
+  </script>
+</body>
+</html>
