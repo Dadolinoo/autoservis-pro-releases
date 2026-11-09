@@ -1,27 +1,18 @@
-version: 2.3.29
+version: 2.3.30
 files:
-  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.29/DH-Logix-Setup-2.3.29.exe
-    sha512: HR3tTqo80gg7Fo1lebsr1H3bqOZ6qVZGyRAgcJD2D4jHBQhE8ca6kFAvnlUS86Y8o+DeXHKtfelo645OCFHAng==
-    size: 101674225
-path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.29/DH-Logix-Setup-2.3.29.exe
-sha512: HR3tTqo80gg7Fo1lebsr1H3bqOZ6qVZGyRAgcJD2D4jHBQhE8ca6kFAvnlUS86Y8o+DeXHKtfelo645OCFHAng==
+  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.30/DH-Logix-Setup-2.3.30.exe
+    sha512: iyuJDWtwyrByVK//vn24U0r+YyDI5xRcM+Tpdcmag8ZyNWyVONzKQfyR8uE5q87GZhIbRX0yAH17Nnj1lHcg3Q==
+    size: 101692204
+path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.30/DH-Logix-Setup-2.3.30.exe
+sha512: iyuJDWtwyrByVK//vn24U0r+YyDI5xRcM+Tpdcmag8ZyNWyVONzKQfyR8uE5q87GZhIbRX0yAH17Nnj1lHcg3Q==
 releaseNotes: |
-  Novo u verziji 2.3.29:
-  - Naruči dijelove: Ciak Auto je uvijek prvi i već odabran (oznaka „★ Zadano”), odmah ispod Tokić, Inter Cars i „Drugi…” – jedan klik; podaci o stranci se i dalje ne šalju
-  - Ponude › Podijeli (novi zeleni gumb u ponudi i u izborniku popisa): na WhatsApp birate „Kao slika” (cijela ponuda kao jedna jasna slika – program je kopira, u WhatsAppu samo pritisnete Ctrl+V pa Enter) ili „Kao tekst”; na e-mail ponuda ide samo kao PDF
-  - Izvještaji › Zarada: novi gumb „Dodaj dnevni prihod” (datum, iznos usluga u €, napomena) – iznos se pribraja u Prihod i Zaradu od rada, u popisu je označen „ručno” i može se urediti ili obrisati; sinkronizira se s ostalim računalima
-  - Usluge i cjenik: u svakom retku vidljivi gumbi „Uredi” i crveni „Obriši” (bez tri točkice); kvačice za označavanje usluga
-  - Usluge › „Rabat za sve”: upišete postotak i birate sve usluge, jednu kategoriju ili samo označene – prije spremanja vidite staru i novu cijenu; svaka usluga se i dalje može zasebno urediti
-  - Brisanje usluge i dnevnog prihoda traži jasnu, veliku potvrdu; stari radni nalozi i ponude ostaju nepromijenjeni
-
-  Novo u verziji 2.3.28:
-  - Radni nalog › Podijeli: nova prva opcija „Naruči dijelove (tekst)” – kod prijema stranke pošaljete dobavljaču (Tokić, Inter Cars, Ciak Auto ili drugi) broj šasije i što treba, npr. „svi filteri + kompletne kočnice”
-  - Radi i kad nalog još nema dijelova – samo upišete što treba naručiti; po želji dodatna napomena (npr. „hitno, do sutra”)
-  - Poruka sadrži samo vozilo (marka, model, godina, motor), VIN i naziv servisa – podaci o stranci (ime, telefon, adresa) se ne šalju; registracija samo ako je uključite kvačicom
-  - Brzi unosi: jednim klikom dodate „Mali servis (svi filteri)”, „Kočnice komplet (prednje)”, „Zupčasti remen set”… – popis gumba uredite u Postavke › Dobavljači › Brzi unosi
-  - Ako vozilo nema upisan VIN, program upozori i možete ga upisati odmah (i spremiti u karticu vozila) – poslati se može i bez njega
-  - WhatsApp se otvori s gotovom porukom (aplikacija, a ako nije instalirana – WhatsApp Web) – samo pritisnete Enter; može i e-mail ili „Kopiraj tekst”
-  - Postavke › Dobavljači: WhatsApp broj i e-mail dobavljača upišete jednom (i dodate svoje dobavljače); novi broj upisan u prozoru „Podijeli” program može sam zapamtiti
-  - Svaka poslana narudžba zapisuje se na nalog (dobavljač, datum i vrijeme, što je naručeno): oznaka „Naručeno ✓” u popisu naloga i odjeljak „Narudžbe dijelova” u nalogu – zapis znači da je poruka poslana iz programa, ne potvrdu dobavljača
-  - Cijeli radni nalog (PDF) za klijenta ostaje kao druga opcija
-releaseDate: '2026-11-03T21:17:41.269Z'
+  Novo u verziji 2.3.30:
+  - Radni nalog › Dijelovi po dobavljačima: zasebna kartica po dobavljaču (Ciak Auto, Tokić, Inter Cars, Drugi). Upišite ukupni iznos ili otvorite „+ Stavke” (naziv + cijena) — zbroj se računa sam. Gumb „+ Dodaj dobavljača”.
+  - Sažetak naloga: Ukupno rad, Ukupno dijelovi, Ukupno naloga.
+  - Izvještaji › Zarada i dobavljači: Dan / Tjedan / Mjesec / Godina / Raspon; KPI rad / dug / ukupno; kartice po dobavljaču s Označi plaćeno.
+  - Stari test-retci dijelova (VPC/rabat) automatski se pretvaraju u stavke na karticama dobavljača.
+  - Radni nalog: kvačica „Dodaj PDV (25 %)” – PDV se dodaje na usluge (rad) samo kad je uključena; stari nalozi ostaju nepromijenjeni.
+  - Postavke › Porez i dokumenti: nova kvačica „Cijene usluga su bez PDV-a – automatski dodaj PDV 25 %” (isključena po defaultu). Kad je uključena, cjenik uz cijenu pokazuje PDV i Ukupno, a novi nalozi (i nalozi iz termina) kreću s uključenim PDV-om.
+  - Drugi dobavljač: možete upisati vlastiti naziv dobavljača.
+  - Naruči dijelove: poruka bez internih šifri (npr. ART-0001) – samo „1. filter ulja – 1 kom”; na kraju naziv servisa i „Poslano iz programa DH-Logix”.
+releaseDate: '2026-11-09T15:16:52.646Z'
