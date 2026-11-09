@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/autoservis-pro-releases/sw.js', { scope: '/autoservis-pro-releases/' })})}
