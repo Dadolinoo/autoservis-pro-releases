@@ -1,18 +1,18 @@
-version: 2.3.30
+version: 2.3.32
 files:
-  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.30/DH-Logix-Setup-2.3.30.exe
-    sha512: iyuJDWtwyrByVK//vn24U0r+YyDI5xRcM+Tpdcmag8ZyNWyVONzKQfyR8uE5q87GZhIbRX0yAH17Nnj1lHcg3Q==
-    size: 101692204
-path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.30/DH-Logix-Setup-2.3.30.exe
-sha512: iyuJDWtwyrByVK//vn24U0r+YyDI5xRcM+Tpdcmag8ZyNWyVONzKQfyR8uE5q87GZhIbRX0yAH17Nnj1lHcg3Q==
+  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.32/DH-Logix-Setup-2.3.32.exe
+    sha512: y0UB0avetKHvADNk1dQDdhSZBzST7fNALurFQfukwgxXSEYAMThLD/9xR9rAR0rCDeHVVkVFoaCt/ItYy18ljg==
+    size: 101703205
+path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.32/DH-Logix-Setup-2.3.32.exe
+sha512: y0UB0avetKHvADNk1dQDdhSZBzST7fNALurFQfukwgxXSEYAMThLD/9xR9rAR0rCDeHVVkVFoaCt/ItYy18ljg==
 releaseNotes: |
-  Novo u verziji 2.3.30:
-  - Radni nalog › Dijelovi po dobavljačima: zasebna kartica po dobavljaču (Ciak Auto, Tokić, Inter Cars, Drugi). Upišite ukupni iznos ili otvorite „+ Stavke” (naziv + cijena) — zbroj se računa sam. Gumb „+ Dodaj dobavljača”.
-  - Sažetak naloga: Ukupno rad, Ukupno dijelovi, Ukupno naloga.
-  - Izvještaji › Zarada i dobavljači: Dan / Tjedan / Mjesec / Godina / Raspon; KPI rad / dug / ukupno; kartice po dobavljaču s Označi plaćeno.
-  - Stari test-retci dijelova (VPC/rabat) automatski se pretvaraju u stavke na karticama dobavljača.
-  - Radni nalog: kvačica „Dodaj PDV (25 %)” – PDV se dodaje na usluge (rad) samo kad je uključena; stari nalozi ostaju nepromijenjeni.
-  - Postavke › Porez i dokumenti: nova kvačica „Cijene usluga su bez PDV-a – automatski dodaj PDV 25 %” (isključena po defaultu). Kad je uključena, cjenik uz cijenu pokazuje PDV i Ukupno, a novi nalozi (i nalozi iz termina) kreću s uključenim PDV-om.
-  - Drugi dobavljač: možete upisati vlastiti naziv dobavljača.
-  - Naruči dijelove: poruka bez internih šifri (npr. ART-0001) – samo „1. filter ulja – 1 kom”; na kraju naziv servisa i „Poslano iz programa DH-Logix”.
-releaseDate: '2026-11-09T15:16:52.646Z'
+  Novo u verziji 2.3.32:
+  - Obavijesti: u zaglavlju su „Označi sve kao pročitano” (sivo kad je sve već pročitano) i „Obriši obavijesti”. Brisanje traži potvrdu i skida samo obavijesti. Radni nalozi, termini i ostali podaci ostaju.
+  - Čekaonica: ručni red vozila bez termina i bez sortiranja po datumu. Strelicama ili povlačenjem mijenjate redoslijed. Iz retka otvarate postojeći obrazac za termin ili radni nalog, već ispunjen.
+  - Izvještaji › Zarada i dobavljači: kartice zarade i duga, graf zadnjih 12 mjeseci i krug duga. Stranica se otvara na „bez PDV-a”. „s PDV-om” i dalje radi.
+  - Narudžba dijelova: zadani „Mali servis” je filteri, ulje i čep i brtva za ispust ulja, bez količine ulja. Vlastiti brzi unos ostaje kakav jest.
+  - Postavke › Izgled: Svijetla ili Tamna tema za cijeli program.
+  - Postavke servisa: kartice preko cijele širine; na užem prozoru kartice su u karticama Općenito, Podaci servisa, Cijene i PDV, Dobavljači, Ispis, Sigurnosna kopija i Izgled.
+  - Cjenik: otvoren uređivač više ne siječe stupac cijene. Tablice se sužavaju s prozorom i prvo skrivaju manje važne stupce.
+  - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
+releaseDate: '2026-11-10T15:38:30.658Z'
