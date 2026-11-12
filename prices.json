@@ -1,6 +1,6 @@
 {
   "v": 1,
-  "updated": "2026-10-31T10:11:46.272Z",
+  "updated": "2026-11-12T14:02:54.417Z",
   "version": 1,
   "currency": "EUR",
   "paketi": {
@@ -21,5 +21,5 @@
   },
   "akcija": null,
   "note": "PDV nije obračunat (čl. 90. st. 1. Zakona o PDV-u).",
-  "sig": "BoMWp-4WkswglK_NiX3-ombTf9pIun-lOagEQVYhytwc4-jwaFB7ifyM3iLTg57EOQXKbO8FsZ_0fdUPuOiHAQ"
+  "sig": "9sturflQ4ihWgPxEcVnm-W17bUmHorayyTR3rl49IqhZ2QzOSHSow8iJGO2d4E6hzpXiW-Jm5MUYLoexAZ3VBg"
 }
