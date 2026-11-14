@@ -1,0 +1,10 @@
+{
+  "name": "Naruči se na servis",
+  "short_name": "Servis",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#eef1f6",
+  "theme_color": "#0e1b3d",
+  "lang": "hr"
+}
