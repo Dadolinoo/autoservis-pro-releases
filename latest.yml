@@ -1,11 +1,15 @@
-version: 2.3.33
+version: 2.3.34
 files:
-  - url: DH-Logix-Setup-2.3.33.exe
-    sha512: MA/wZmt33qRwC6ef6c1qciCv3IbPdODLfBeuJdU4AWTwffHMP8I/vhey1ZORiD8JGLm4sOB0wyFATfBWy8q14Q==
-    size: 101701517
-path: DH-Logix-Setup-2.3.33.exe
-sha512: MA/wZmt33qRwC6ef6c1qciCv3IbPdODLfBeuJdU4AWTwffHMP8I/vhey1ZORiD8JGLm4sOB0wyFATfBWy8q14Q==
+  - url: DH-Logix-Setup-2.3.34.exe
+    sha512: IXCse4dYllEJYZN7mqHsyJT+Odr1+k5EJsy+KOf/s1b9B4G56+GKYYnz0FIlo0FpwkspiGL5bFo+BIvZqWiXkA==
+    size: 101710494
+path: DH-Logix-Setup-2.3.34.exe
+sha512: IXCse4dYllEJYZN7mqHsyJT+Odr1+k5EJsy+KOf/s1b9B4G56+GKYYnz0FIlo0FpwkspiGL5bFo+BIvZqWiXkA==
 releaseNotes: |
+  Novo u verziji 2.3.34:
+  - Čekaonica: crvena značka s brojem vozila na čekanju. Kalendar: crvena značka s brojem današnjih termina.
+  - Online zahtjev: iz čekaonice šaljete kupcu ponudu ili status (U radu, Gotovo). Kupac to vidi u javnoj aplikaciji.
+
   Novo u verziji 2.3.33:
   - Narudžba dijelova: „Naruči dijelove” nudi sve stavke naloga (dio, stavka i usluga), uključene po zadanim postavkama. Prazan tekst „Nalog još nema dijelova” ostaje samo kad nalog stvarno nema stavki.
 
@@ -18,4 +22,4 @@ releaseNotes: |
   - Postavke servisa: kartice preko cijele širine; na užem prozoru kartice su u karticama Općenito, Podaci servisa, Cijene i PDV, Dobavljači, Ispis, Sigurnosna kopija i Izgled.
   - Cjenik: otvoren uređivač više ne siječe stupac cijene. Tablice se sužavaju s prozorom i prvo skrivaju manje važne stupce.
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-16T15:22:56.022Z'
+releaseDate: '2026-11-16T15:47:52.579Z'
