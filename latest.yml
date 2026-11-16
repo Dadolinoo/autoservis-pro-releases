@@ -1,11 +1,15 @@
-version: 2.3.36
+version: 2.3.37
 files:
-  - url: DH-Logix-Setup-2.3.36.exe
-    sha512: Q58Y5JQn/MXXRKPzlbsSuu07Oyojq6+9UhGjcTo2oQBHoAmenzO5J92/nsiCuT+i8tcNFhH1wvEv5xD1+3U+Bw==
-    size: 101716846
-path: DH-Logix-Setup-2.3.36.exe
-sha512: Q58Y5JQn/MXXRKPzlbsSuu07Oyojq6+9UhGjcTo2oQBHoAmenzO5J92/nsiCuT+i8tcNFhH1wvEv5xD1+3U+Bw==
+  - url: DH-Logix-Setup-2.3.37.exe
+    sha512: Lsc20vgA7ETOMdlv0Zy5IqOr8gjHStKMSAK8eve/I3u4gj9nWFzKJoDchjbwn11e45DH6FqBztIqnGhBEBKojg==
+    size: 101728744
+path: DH-Logix-Setup-2.3.37.exe
+sha512: Lsc20vgA7ETOMdlv0Zy5IqOr8gjHStKMSAK8eve/I3u4gj9nWFzKJoDchjbwn11e45DH6FqBztIqnGhBEBKojg==
 releaseNotes: |
+  Novo u verziji 2.3.37:
+  - Novi online zahtjev: traka se spušta s vrha prozora (vrsta usluge i „Novi online zahtjev”, bez telefona). Klik otvara Čekaonicu, a nakon 5 sekundi traka odlazi. Windows obavijest ostaje dodatno.
+  - Čekaonica: online zahtjev se može obrisati. Kupac vidi „Servis je obrisao zahtjev”. Fotografije se brišu s zahtjevom.
+
   Novo u verziji 2.3.36:
   - Novi online zahtjev: program ga provjerava u pozadini (oko svake minute i pol i kad se prozor vrati u fokus). Windows obavijest kaže vrstu usluge i „Novi online zahtjev”, bez telefona. Klik otvara Čekaonicu, a crvena značka se osvježi odmah.
 
@@ -28,4 +32,4 @@ releaseNotes: |
   - Postavke servisa: kartice preko cijele širine; na užem prozoru kartice su u karticama Općenito, Podaci servisa, Cijene i PDV, Dobavljači, Ispis, Sigurnosna kopija i Izgled.
   - Cjenik: otvoren uređivač više ne siječe stupac cijene. Tablice se sužavaju s prozorom i prvo skrivaju manje važne stupce.
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-16T16:58:55.423Z'
+releaseDate: '2026-11-16T17:20:41.683Z'
