@@ -1,0 +1,91 @@
+version: 2.3.38
+files:
+  - url: >-
+      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.38/DH-Logix-Setup-2.3.38.exe
+    sha512: >-
+      21I5pYrXOtQxisBPzQZch87CG4RtNEzPCyBg5DMvW+wivPeR05uPgx4F/a/tKeolVVnBaj3QuN09NetDjkEnow==
+    size: 101725179
+path: >-
+  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.38/DH-Logix-Setup-2.3.38.exe
+sha512: >-
+  21I5pYrXOtQxisBPzQZch87CG4RtNEzPCyBg5DMvW+wivPeR05uPgx4F/a/tKeolVVnBaj3QuN09NetDjkEnow==
+releaseNotes: >
+  Novo u verziji 2.3.38:
+
+  - Novi online zahtjev stiže odmah. Program sluša vezu uživo, a provjera svake
+  minute i pol ostaje ako veza padne. Traka s vrha i Windows obavijest ostaju.
+  Isti zahtjev je u zvonu; klik otvara taj red u Čekaonici.
+
+  - Testni kanal ažuriranja vidi samo licenca s oznakom test-kanal. Ostali
+  servisi i dalje dobivaju samo stabilne verzije.
+
+
+  Novo u verziji 2.3.37:
+
+  - Novi online zahtjev: traka se spušta s vrha prozora (vrsta usluge i „Novi
+  online zahtjev”, bez telefona). Klik otvara Čekaonicu, a nakon 5 sekundi traka
+  odlazi. Windows obavijest ostaje dodatno.
+
+  - Čekaonica: online zahtjev se može obrisati. Kupac vidi „Servis je obrisao
+  zahtjev”. Fotografije se brišu s zahtjevom.
+
+
+  Novo u verziji 2.3.36:
+
+  - Novi online zahtjev: program ga provjerava u pozadini (oko svake minute i
+  pol i kad se prozor vrati u fokus). Windows obavijest kaže vrstu usluge i
+  „Novi online zahtjev”, bez telefona. Klik otvara Čekaonicu, a crvena značka se
+  osvježi odmah.
+
+
+  Novo u verziji 2.3.35:
+
+  - Postavke servisa: prva kartica je „Javna lista”. Uključite prekidač da se
+  servis vidi u pretrazi javne aplikacije „Naruči se na servis”.
+
+
+  Novo u verziji 2.3.34:
+
+  - Čekaonica: crvena značka s brojem vozila na čekanju. Kalendar: crvena značka
+  s brojem današnjih termina.
+
+  - Online zahtjev: iz čekaonice šaljete kupcu ponudu ili status (U radu,
+  Gotovo). Kupac to vidi u javnoj aplikaciji.
+
+
+  Novo u verziji 2.3.33:
+
+  - Narudžba dijelova: „Naruči dijelove” nudi sve stavke naloga (dio, stavka i
+  usluga), uključene po zadanim postavkama. Prazan tekst „Nalog još nema
+  dijelova” ostaje samo kad nalog stvarno nema stavki.
+
+
+  Novo u verziji 2.3.32:
+
+  - Obavijesti: u zaglavlju su „Označi sve kao pročitano” (sivo kad je sve već
+  pročitano) i „Obriši obavijesti”. Brisanje traži potvrdu i skida samo
+  obavijesti. Radni nalozi, termini i ostali podaci ostaju.
+
+  - Čekaonica: ručni red vozila bez termina i bez sortiranja po datumu.
+  Strelicama ili povlačenjem mijenjate redoslijed. Iz retka otvarate postojeći
+  obrazac za termin ili radni nalog, već ispunjen.
+
+  - Izvještaji › Zarada i dobavljači: kartice zarade i duga, graf zadnjih 12
+  mjeseci i krug duga. Stranica se otvara na „bez PDV-a”. „s PDV-om” i dalje
+  radi.
+
+  - Narudžba dijelova: zadani „Mali servis” je filteri, ulje i čep i brtva za
+  ispust ulja, bez količine ulja. Vlastiti brzi unos ostaje kakav jest.
+
+  - Postavke › Izgled: Svijetla ili Tamna tema za cijeli program.
+
+  - Postavke servisa: kartice preko cijele širine; na užem prozoru kartice su u
+  karticama Općenito, Podaci servisa, Cijene i PDV, Dobavljači, Ispis,
+  Sigurnosna kopija i Izgled.
+
+  - Cjenik: otvoren uređivač više ne siječe stupac cijene. Tablice se sužavaju s
+  prozorom i prvo skrivaju manje važne stupce.
+
+  - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku
+  mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
+releaseDate: '2026-11-16T17:51:25.098Z'
