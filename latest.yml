@@ -1,11 +1,14 @@
-version: 2.3.32
+version: 2.3.33
 files:
-  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.32/DH-Logix-Setup-2.3.32.exe
-    sha512: y0UB0avetKHvADNk1dQDdhSZBzST7fNALurFQfukwgxXSEYAMThLD/9xR9rAR0rCDeHVVkVFoaCt/ItYy18ljg==
-    size: 101703205
-path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.32/DH-Logix-Setup-2.3.32.exe
-sha512: y0UB0avetKHvADNk1dQDdhSZBzST7fNALurFQfukwgxXSEYAMThLD/9xR9rAR0rCDeHVVkVFoaCt/ItYy18ljg==
+  - url: DH-Logix-Setup-2.3.33.exe
+    sha512: MA/wZmt33qRwC6ef6c1qciCv3IbPdODLfBeuJdU4AWTwffHMP8I/vhey1ZORiD8JGLm4sOB0wyFATfBWy8q14Q==
+    size: 101701517
+path: DH-Logix-Setup-2.3.33.exe
+sha512: MA/wZmt33qRwC6ef6c1qciCv3IbPdODLfBeuJdU4AWTwffHMP8I/vhey1ZORiD8JGLm4sOB0wyFATfBWy8q14Q==
 releaseNotes: |
+  Novo u verziji 2.3.33:
+  - Narudžba dijelova: „Naruči dijelove” nudi sve stavke naloga (dio, stavka i usluga), uključene po zadanim postavkama. Prazan tekst „Nalog još nema dijelova” ostaje samo kad nalog stvarno nema stavki.
+
   Novo u verziji 2.3.32:
   - Obavijesti: u zaglavlju su „Označi sve kao pročitano” (sivo kad je sve već pročitano) i „Obriši obavijesti”. Brisanje traži potvrdu i skida samo obavijesti. Radni nalozi, termini i ostali podaci ostaju.
   - Čekaonica: ručni red vozila bez termina i bez sortiranja po datumu. Strelicama ili povlačenjem mijenjate redoslijed. Iz retka otvarate postojeći obrazac za termin ili radni nalog, već ispunjen.
@@ -15,4 +18,4 @@ releaseNotes: |
   - Postavke servisa: kartice preko cijele širine; na užem prozoru kartice su u karticama Općenito, Podaci servisa, Cijene i PDV, Dobavljači, Ispis, Sigurnosna kopija i Izgled.
   - Cjenik: otvoren uređivač više ne siječe stupac cijene. Tablice se sužavaju s prozorom i prvo skrivaju manje važne stupce.
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-10T15:38:30.658Z'
+releaseDate: '2026-11-16T15:22:56.022Z'
