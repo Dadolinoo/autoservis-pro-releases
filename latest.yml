@@ -1,11 +1,17 @@
-version: 2.3.34
+version: 2.3.36
 files:
-  - url: DH-Logix-Setup-2.3.34.exe
-    sha512: IXCse4dYllEJYZN7mqHsyJT+Odr1+k5EJsy+KOf/s1b9B4G56+GKYYnz0FIlo0FpwkspiGL5bFo+BIvZqWiXkA==
-    size: 101710494
-path: DH-Logix-Setup-2.3.34.exe
-sha512: IXCse4dYllEJYZN7mqHsyJT+Odr1+k5EJsy+KOf/s1b9B4G56+GKYYnz0FIlo0FpwkspiGL5bFo+BIvZqWiXkA==
+  - url: DH-Logix-Setup-2.3.36.exe
+    sha512: Q58Y5JQn/MXXRKPzlbsSuu07Oyojq6+9UhGjcTo2oQBHoAmenzO5J92/nsiCuT+i8tcNFhH1wvEv5xD1+3U+Bw==
+    size: 101716846
+path: DH-Logix-Setup-2.3.36.exe
+sha512: Q58Y5JQn/MXXRKPzlbsSuu07Oyojq6+9UhGjcTo2oQBHoAmenzO5J92/nsiCuT+i8tcNFhH1wvEv5xD1+3U+Bw==
 releaseNotes: |
+  Novo u verziji 2.3.36:
+  - Novi online zahtjev: program ga provjerava u pozadini (oko svake minute i pol i kad se prozor vrati u fokus). Windows obavijest kaže vrstu usluge i „Novi online zahtjev”, bez telefona. Klik otvara Čekaonicu, a crvena značka se osvježi odmah.
+
+  Novo u verziji 2.3.35:
+  - Postavke servisa: prva kartica je „Javna lista”. Uključite prekidač da se servis vidi u pretrazi javne aplikacije „Naruči se na servis”.
+
   Novo u verziji 2.3.34:
   - Čekaonica: crvena značka s brojem vozila na čekanju. Kalendar: crvena značka s brojem današnjih termina.
   - Online zahtjev: iz čekaonice šaljete kupcu ponudu ili status (U radu, Gotovo). Kupac to vidi u javnoj aplikaciji.
@@ -22,4 +28,4 @@ releaseNotes: |
   - Postavke servisa: kartice preko cijele širine; na užem prozoru kartice su u karticama Općenito, Podaci servisa, Cijene i PDV, Dobavljači, Ispis, Sigurnosna kopija i Izgled.
   - Cjenik: otvoren uređivač više ne siječe stupac cijene. Tablice se sužavaju s prozorom i prvo skrivaju manje važne stupce.
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-16T15:47:52.579Z'
+releaseDate: '2026-11-16T16:58:55.423Z'
