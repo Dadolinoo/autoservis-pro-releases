@@ -1,4 +1,4 @@
-const CACHE = 'javno-0.2.0';
+const CACHE = 'javno-0.2.1';
 self.addEventListener('install', (e) => { self.skipWaiting(); e.waitUntil(caches.open(CACHE)); });
 self.addEventListener('activate', (e) => e.waitUntil(self.clients.claim()));
 self.addEventListener('fetch', (e) => {
