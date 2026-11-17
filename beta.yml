@@ -1,15 +1,35 @@
-version: 2.3.38
+version: 2.3.39
 files:
   - url: >-
-      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.38/DH-Logix-Setup-2.3.38.exe
+      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.39/DH-Logix-Setup-2.3.39.exe
     sha512: >-
-      21I5pYrXOtQxisBPzQZch87CG4RtNEzPCyBg5DMvW+wivPeR05uPgx4F/a/tKeolVVnBaj3QuN09NetDjkEnow==
-    size: 101725179
+      piYXmDboAvywcs/a7urw6H/iz06jtme3sdmEdNybvcJQcWRRFKwbGNsmQ7FtOY/dThdZQ/N58nC+ulNHjlgXGQ==
+    size: 101736268
 path: >-
-  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.38/DH-Logix-Setup-2.3.38.exe
+  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.39/DH-Logix-Setup-2.3.39.exe
 sha512: >-
-  21I5pYrXOtQxisBPzQZch87CG4RtNEzPCyBg5DMvW+wivPeR05uPgx4F/a/tKeolVVnBaj3QuN09NetDjkEnow==
+  piYXmDboAvywcs/a7urw6H/iz06jtme3sdmEdNybvcJQcWRRFKwbGNsmQ7FtOY/dThdZQ/N58nC+ulNHjlgXGQ==
 releaseNotes: >
+  Novo u verziji 2.3.39:
+
+  - Radni nalog › Podijeli: novi gumb „Zatraži ponudu za dijelove”. Ciak Auto je
+  već odabran. Poruka sadrži šasiju, vozilo i popis dijelova (bez cijene i
+  šifre, bez podataka o stranci). Na nalogu ostaje zapis „Upit poslan ✓”.
+
+  - Dijelove na nalogu dodajete samo nazivom (Enter) — cijenu upisujete kad
+  stigne ponuda.
+
+  - „Izradi ponudu za kupca” iz radnog naloga otvara novu ponudu (Nacrt) s istim
+  klijentom, vozilom i stavkama.
+
+  - Na ponudi je „Naruči dijelove”: ista poruka dobavljaču, a zapis ide na
+  povezani nalog (ili na ponudu ako nalog nije povezan).
+
+  - Slobodan tekst i brzi unosi u upitu (npr. „Hladnjak + seleni vilice”)
+  postaju stavke na nalogu, bez cijene. Kad stigne ponuda, samo upišete cijene
+  pa „Izradi ponudu za kupca”.
+
+
   Novo u verziji 2.3.38:
 
   - Novi online zahtjev stiže odmah. Program sluša vezu uživo, a provjera svake
@@ -88,4 +108,4 @@ releaseNotes: >
 
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku
   mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-16T17:51:25.098Z'
+releaseDate: '2026-11-17T05:19:00.216Z'
