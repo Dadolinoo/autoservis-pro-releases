@@ -1,15 +1,39 @@
-version: 2.3.49
+version: 2.3.50
 files:
   - url: >-
-      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.49/DH-Logix-Setup-2.3.49.exe
+      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.50/DH-Logix-Setup-2.3.50.exe
     sha512: >-
-      vdQymsaC0ImsDMc54RC1MU7PITljBhtx8msxRfEB/bYcHC4vD3eZG1OJOwgLY0dJqtW/Yjq5MVa5U2hdvZsS5g==
-    size: 101761521
+      w1S1In7IjM68ZroF5lTZY7tjKR55kgCV3cltNa4gwifFYEXapvBJ7UnepTHGBlN3qFTnyu6SXdLU0Ka4fXD0iQ==
+    size: 101773452
 path: >-
-  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.49/DH-Logix-Setup-2.3.49.exe
+  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.50/DH-Logix-Setup-2.3.50.exe
 sha512: >-
-  vdQymsaC0ImsDMc54RC1MU7PITljBhtx8msxRfEB/bYcHC4vD3eZG1OJOwgLY0dJqtW/Yjq5MVa5U2hdvZsS5g==
+  w1S1In7IjM68ZroF5lTZY7tjKR55kgCV3cltNa4gwifFYEXapvBJ7UnepTHGBlN3qFTnyu6SXdLU0Ka4fXD0iQ==
 releaseNotes: >
+  Novo u verziji 2.3.50:
+
+  - Upit za ponudu u izgledu po Damirovom primjeru.
+
+  - Kalendar se otvara u tjednom prikazu.
+
+  - Nova kartica „Narudžbe dijelova”: klijent → što naručiti → WhatsApp Ciaku;
+  iz narudžbe jednim klikom radni nalog ili ponuda s prepisanim dijelovima.
+
+  - Podnožje izbornika: samo verzija i autor, centrirano.
+
+  - Jedan paket sa svim mogućnostima; dodaci: mobilna aplikacija za stranke i
+  uvoz starih podataka.
+
+  - Postavke → Dobavljači: broj i e-mail dobavljača spremaju se gumbom „Spremi”
+  po retku, a mijenjaju gumbom „Izmijeni”.
+
+  - Nadzorna ploča: gumb „Prilagodi” – uključite ili isključite kartice i
+  složite redoslijed; preostale kartice same se rašire i popune prostor.
+
+  - Upozorenje „PAŽNJA” o isteku licence izlazi iz stavke Licenca: 10 dana prije
+  isteka, sve češće kako se rok bliži.
+
+
   Novo u verziji 2.3.49:
 
   - Popravljen bijeli ekran kod klika na ✨ „Što želite napraviti?”.
@@ -202,4 +226,4 @@ releaseNotes: >
 
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku
   mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-18T16:40:15.872Z'
+releaseDate: '2026-11-18T17:40:06.822Z'
