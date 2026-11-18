@@ -1,21 +1,130 @@
-version: 2.3.40
+version: 2.3.41
 files:
   - url: >-
-      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.40/DH-Logix-Setup-2.3.40.exe
+      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.41/DH-Logix-Setup-2.3.41.exe
     sha512: >-
-      X9DL9Z7Gibz8E8vnQEQdGXSyoXtX9vO7SoSizLJJjU/Kz/hA/vkn9MThW3bWIpNLQdc8YAJfgfj98CMZZKXkdQ==
-    size: 101739611
+      7q9VoINZ4a5fhM0XhUEPMh9/hshibu+AiezZ0dI8ce6H1Zv7FH/rR9qdVtotKB5PyIi0rzmC5Pb6h/CG0ZtWLQ==
+    size: 101748542
 path: >-
-  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.40/DH-Logix-Setup-2.3.40.exe
+  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.41/DH-Logix-Setup-2.3.41.exe
 sha512: >-
-  X9DL9Z7Gibz8E8vnQEQdGXSyoXtX9vO7SoSizLJJjU/Kz/hA/vkn9MThW3bWIpNLQdc8YAJfgfj98CMZZKXkdQ==
-releaseNotes: |
-  Novo u verziji 2.3.40 (test):
-  - Podsjetnik za termine: Windows obavijest i kartica u sredini ekrana koja izlazi iz ikone Kalendara i vraća se u nju. U Postavkama birate 15, 30 ili 60 min prije, ili isključeno.
-  - Kalendar › Tjedan: kartice se same prilagođavaju broju dizalica i trajanju, ništa se ne preklapa. Boja po dizalici, prikazana i nedjelja.
-  - Sve obavijesti u programu animirano izlaze iz kuta i vraćaju se u njega.
-  - Automatska prijava grešaka (bez osobnih podataka) da ih brže popravimo.
+  7q9VoINZ4a5fhM0XhUEPMh9/hshibu+AiezZ0dI8ce6H1Zv7FH/rR9qdVtotKB5PyIi0rzmC5Pb6h/CG0ZtWLQ==
+releaseNotes: >
+  Novo u verziji 2.3.41:
+
+  - Obavijesti „kao duh iz boce”: izlaze iz stavke izbornika kojoj pripadaju
+  (npr. Kalendar, Ponude, Skladište), stanu i vrate se u nju. Stavka kratko
+  zatreperi i dobije broj, a broj nestane kad otvorite tu stranicu.
+
+  - Podsjetnik za termin izlazi iz Kalendara na sredinu radnog dijela prozora.
+  Kratke poruke („Spremljeno”) su mala kartica uz stavku izbornika i nestaju za
+  2 sekunde.
+
+  - Obavijest o novoj verziji uleti iz Postavki servisa i ostaje u kutu.
+
+  - Ako je u Windowsu uključeno smanjenje animacija, obavijesti se samo pojave i
+  nestanu.
+
+  - Upit za ponudu dijelova: ljepši WhatsApp izgled (podebljani naslov, vozilo i
+  šasija, numerirani dijelovi), a slobodan tekst se rastavlja na zasebne stavke.
+
 
   Novo u verziji 2.3.39:
-  - Radni nalog › Podijeli: „Zatraži ponudu za dijelove” (Ciak), „Izradi ponudu za kupca” i „Naruči dijelove” iz ponude.
-releaseDate: '2026-11-18T11:53:58.734Z'
+
+  - Radni nalog › Podijeli: novi gumb „Zatraži ponudu za dijelove”. Ciak Auto je
+  već odabran. Poruka sadrži šasiju, vozilo i popis dijelova (bez cijene i
+  šifre, bez podataka o stranci). Na nalogu ostaje zapis „Upit poslan ✓”.
+
+  - Dijelove na nalogu dodajete samo nazivom (Enter) — cijenu upisujete kad
+  stigne ponuda.
+
+  - „Izradi ponudu za kupca” iz radnog naloga otvara novu ponudu (Nacrt) s istim
+  klijentom, vozilom i stavkama.
+
+  - Na ponudi je „Naruči dijelove”: ista poruka dobavljaču, a zapis ide na
+  povezani nalog (ili na ponudu ako nalog nije povezan).
+
+  - Slobodan tekst i brzi unosi u upitu (npr. „Hladnjak + seleni vilice”)
+  postaju stavke na nalogu, bez cijene. Kad stigne ponuda, samo upišete cijene
+  pa „Izradi ponudu za kupca”.
+
+
+  Novo u verziji 2.3.38:
+
+  - Novi online zahtjev stiže odmah. Program sluša vezu uživo, a provjera svake
+  minute i pol ostaje ako veza padne. Traka s vrha i Windows obavijest ostaju.
+  Isti zahtjev je u zvonu; klik otvara taj red u Čekaonici.
+
+  - Testni kanal ažuriranja vidi samo licenca s oznakom test-kanal. Ostali
+  servisi i dalje dobivaju samo stabilne verzije.
+
+
+  Novo u verziji 2.3.37:
+
+  - Novi online zahtjev: traka se spušta s vrha prozora (vrsta usluge i „Novi
+  online zahtjev”, bez telefona). Klik otvara Čekaonicu, a nakon 5 sekundi traka
+  odlazi. Windows obavijest ostaje dodatno.
+
+  - Čekaonica: online zahtjev se može obrisati. Kupac vidi „Servis je obrisao
+  zahtjev”. Fotografije se brišu s zahtjevom.
+
+
+  Novo u verziji 2.3.36:
+
+  - Novi online zahtjev: program ga provjerava u pozadini (oko svake minute i
+  pol i kad se prozor vrati u fokus). Windows obavijest kaže vrstu usluge i
+  „Novi online zahtjev”, bez telefona. Klik otvara Čekaonicu, a crvena značka se
+  osvježi odmah.
+
+
+  Novo u verziji 2.3.35:
+
+  - Postavke servisa: prva kartica je „Javna lista”. Uključite prekidač da se
+  servis vidi u pretrazi javne aplikacije „Naruči se na servis”.
+
+
+  Novo u verziji 2.3.34:
+
+  - Čekaonica: crvena značka s brojem vozila na čekanju. Kalendar: crvena značka
+  s brojem današnjih termina.
+
+  - Online zahtjev: iz čekaonice šaljete kupcu ponudu ili status (U radu,
+  Gotovo). Kupac to vidi u javnoj aplikaciji.
+
+
+  Novo u verziji 2.3.33:
+
+  - Narudžba dijelova: „Naruči dijelove” nudi sve stavke naloga (dio, stavka i
+  usluga), uključene po zadanim postavkama. Prazan tekst „Nalog još nema
+  dijelova” ostaje samo kad nalog stvarno nema stavki.
+
+
+  Novo u verziji 2.3.32:
+
+  - Obavijesti: u zaglavlju su „Označi sve kao pročitano” (sivo kad je sve već
+  pročitano) i „Obriši obavijesti”. Brisanje traži potvrdu i skida samo
+  obavijesti. Radni nalozi, termini i ostali podaci ostaju.
+
+  - Čekaonica: ručni red vozila bez termina i bez sortiranja po datumu.
+  Strelicama ili povlačenjem mijenjate redoslijed. Iz retka otvarate postojeći
+  obrazac za termin ili radni nalog, već ispunjen.
+
+  - Izvještaji › Zarada i dobavljači: kartice zarade i duga, graf zadnjih 12
+  mjeseci i krug duga. Stranica se otvara na „bez PDV-a”. „s PDV-om” i dalje
+  radi.
+
+  - Narudžba dijelova: zadani „Mali servis” je filteri, ulje i čep i brtva za
+  ispust ulja, bez količine ulja. Vlastiti brzi unos ostaje kakav jest.
+
+  - Postavke › Izgled: Svijetla ili Tamna tema za cijeli program.
+
+  - Postavke servisa: kartice preko cijele širine; na užem prozoru kartice su u
+  karticama Općenito, Podaci servisa, Cijene i PDV, Dobavljači, Ispis,
+  Sigurnosna kopija i Izgled.
+
+  - Cjenik: otvoren uređivač više ne siječe stupac cijene. Tablice se sužavaju s
+  prozorom i prvo skrivaju manje važne stupce.
+
+  - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku
+  mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
+releaseDate: '2026-11-18T12:48:27.106Z'
