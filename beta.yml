@@ -1,15 +1,24 @@
-version: 2.3.45
+version: 2.3.46
 files:
   - url: >-
-      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.45/DH-Logix-Setup-2.3.45.exe
+      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.46/DH-Logix-Setup-2.3.46.exe
     sha512: >-
-      t+0pWDSv6EfZ4IlkvIleS3AqmtYNNicYpmFAjzvjuNWABphcv7ay4dtVEvb6tCBwn5lwT0RZWoxJOVpZFG/2+A==
-    size: 101741582
+      bp6U+lZYFBXvn4EdPEEQTnH/bl+N5lHnZDGs2NzNTGvoREuTngxjbLepJ/mOp4oOnDb0a48zD+cYJHT5JDY8+Q==
+    size: 101747196
 path: >-
-  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.45/DH-Logix-Setup-2.3.45.exe
+  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.46/DH-Logix-Setup-2.3.46.exe
 sha512: >-
-  t+0pWDSv6EfZ4IlkvIleS3AqmtYNNicYpmFAjzvjuNWABphcv7ay4dtVEvb6tCBwn5lwT0RZWoxJOVpZFG/2+A==
+  bp6U+lZYFBXvn4EdPEEQTnH/bl+N5lHnZDGs2NzNTGvoREuTngxjbLepJ/mOp4oOnDb0a48zD+cYJHT5JDY8+Q==
 releaseNotes: >
+  Novo u verziji 2.3.46:
+
+  - Popravljeno: velika kartica termina se sama vraća u Kalendar i gumbi uvijek
+  reagiraju.
+
+  - Kad vozilu zadate termin ili otvorite radni nalog, vozilo samo izlazi iz
+  Čekaonice.
+
+
   Novo u verziji 2.3.45:
 
   - Promjene s mobitela stižu za najviše 8 sekundi (prije do 45), i odmah kad se
@@ -162,4 +171,4 @@ releaseNotes: >
 
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku
   mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-18T14:40:06.335Z'
+releaseDate: '2026-11-18T14:54:49.746Z'
