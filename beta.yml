@@ -1,15 +1,22 @@
-version: 2.3.46
+version: 2.3.47
 files:
   - url: >-
-      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.46/DH-Logix-Setup-2.3.46.exe
+      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.47/DH-Logix-Setup-2.3.47.exe
     sha512: >-
-      bp6U+lZYFBXvn4EdPEEQTnH/bl+N5lHnZDGs2NzNTGvoREuTngxjbLepJ/mOp4oOnDb0a48zD+cYJHT5JDY8+Q==
-    size: 101747196
+      P0zYkQv/OdE6Y+rI0haJ2WLlOPfTKwdYK+q2g29NtvBHYBwi2NtnQJlEY+SRKg0xl4J5KE8vAWIJt8jhJFlxIw==
+    size: 101748422
 path: >-
-  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.46/DH-Logix-Setup-2.3.46.exe
+  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.47/DH-Logix-Setup-2.3.47.exe
 sha512: >-
-  bp6U+lZYFBXvn4EdPEEQTnH/bl+N5lHnZDGs2NzNTGvoREuTngxjbLepJ/mOp4oOnDb0a48zD+cYJHT5JDY8+Q==
+  P0zYkQv/OdE6Y+rI0haJ2WLlOPfTKwdYK+q2g29NtvBHYBwi2NtnQJlEY+SRKg0xl4J5KE8vAWIJt8jhJFlxIw==
 releaseNotes: >
+  Novo u verziji 2.3.47:
+
+  - Mali asistent u radnom nalogu: nakon odabira vozila pita „Što želite
+  naručiti?”, upisani tekst sam rastavi u dijelove i ponudi slanje upita na
+  WhatsApp.
+
+
   Novo u verziji 2.3.46:
 
   - Popravljeno: velika kartica termina se sama vraća u Kalendar i gumbi uvijek
@@ -171,4 +178,4 @@ releaseNotes: >
 
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku
   mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-18T14:54:49.746Z'
+releaseDate: '2026-11-18T15:35:33.001Z'
