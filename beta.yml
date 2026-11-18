@@ -1,15 +1,26 @@
-version: 2.3.48
+version: 2.3.49
 files:
   - url: >-
-      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.48/DH-Logix-Setup-2.3.48.exe
+      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.49/DH-Logix-Setup-2.3.49.exe
     sha512: >-
-      IjRFOYW3QMf3tB+Zt4PdoRZVA3cIhGphOfdr8l3IXCoNNJPODHOGyPJeEmYxrP6dKGQTWJITAlmnJBXo/O+hUw==
-    size: 101753436
+      vdQymsaC0ImsDMc54RC1MU7PITljBhtx8msxRfEB/bYcHC4vD3eZG1OJOwgLY0dJqtW/Yjq5MVa5U2hdvZsS5g==
+    size: 101761521
 path: >-
-  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.48/DH-Logix-Setup-2.3.48.exe
+  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.49/DH-Logix-Setup-2.3.49.exe
 sha512: >-
-  IjRFOYW3QMf3tB+Zt4PdoRZVA3cIhGphOfdr8l3IXCoNNJPODHOGyPJeEmYxrP6dKGQTWJITAlmnJBXo/O+hUw==
+  vdQymsaC0ImsDMc54RC1MU7PITljBhtx8msxRfEB/bYcHC4vD3eZG1OJOwgLY0dJqtW/Yjq5MVa5U2hdvZsS5g==
 releaseNotes: >
+  Novo u verziji 2.3.49:
+
+  - Popravljen bijeli ekran kod klika na ✨ „Što želite napraviti?”.
+
+  - U postojećem nalogu veći prozor asistenta: „Što želite još dodati ili
+  izmijeniti?” – dodaj u dijelove, dodaj u rad ili „makni …”.
+
+  - Nakon dodavanja dijelova bira se slanje na WhatsApp: upit za ponudu ili
+  narudžba dijelova.
+
+
   Novo u verziji 2.3.48:
 
   - Vodič ✨ dolje desno: napišite što želite napraviti i odvede vas tamo;
@@ -191,4 +202,4 @@ releaseNotes: >
 
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku
   mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-18T16:02:13.983Z'
+releaseDate: '2026-11-18T16:40:15.872Z'
