@@ -1,15 +1,25 @@
-version: 2.3.42
+version: 2.3.43
 files:
   - url: >-
-      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.42/DH-Logix-Setup-2.3.42.exe
+      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.43/DH-Logix-Setup-2.3.43.exe
     sha512: >-
-      V61DQoilXGEDFIx9xWZY3EMtlD6PvvuAHKM9/Zz1dVjgh5V0iFUGWWCeNeFWfxG/4BFnPhJBHpVYcUoB+GEYpQ==
-    size: 101748717
+      WMJifCD9jsUSkyVl924TWFZUBPgnavSgenGDcO5eg/Kfm8FyL2IEV6v6kOa3p6lo+SpaEI7T0sXeMBxXQ/N0eg==
+    size: 101745572
 path: >-
-  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.42/DH-Logix-Setup-2.3.42.exe
+  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.43/DH-Logix-Setup-2.3.43.exe
 sha512: >-
-  V61DQoilXGEDFIx9xWZY3EMtlD6PvvuAHKM9/Zz1dVjgh5V0iFUGWWCeNeFWfxG/4BFnPhJBHpVYcUoB+GEYpQ==
+  WMJifCD9jsUSkyVl924TWFZUBPgnavSgenGDcO5eg/Kfm8FyL2IEV6v6kOa3p6lo+SpaEI7T0sXeMBxXQ/N0eg==
 releaseNotes: >
+  Novo u verziji 2.3.43:
+
+  - Kartice obavijesti sporije i jasnije izlaze iz stavke izbornika i vraćaju se
+  u nju („kao duh”), uz vidljiv trag, i sada uvijek, i kad su u Windowsu ugašeni
+  efekti animacije.
+
+  - Obavijesti ostaju dulje na ekranu: one s mobitela 7 sekundi, a novi termin i
+  prihvaćena ponuda 12 sekundi.
+
+
   Novo u verziji 2.3.42:
 
   - Promjene s mobitela ili drugog računala (novi termin, radni nalog, ponuda,
@@ -135,4 +145,4 @@ releaseNotes: >
 
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku
   mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-18T13:25:53.466Z'
+releaseDate: '2026-11-18T13:42:14.518Z'
