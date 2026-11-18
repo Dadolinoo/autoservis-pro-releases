@@ -1,15 +1,25 @@
-version: 2.3.44
+version: 2.3.45
 files:
   - url: >-
-      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.44/DH-Logix-Setup-2.3.44.exe
+      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.45/DH-Logix-Setup-2.3.45.exe
     sha512: >-
-      Jbz2Nbu4lWd2Zrj/7VGuaNGh6MdGyYtdD7XH5EpB36a/b1MdFjJLpWaxGeTsEZsAORRJjCr6Fdr6VdUAQE8skQ==
-    size: 101748404
+      t+0pWDSv6EfZ4IlkvIleS3AqmtYNNicYpmFAjzvjuNWABphcv7ay4dtVEvb6tCBwn5lwT0RZWoxJOVpZFG/2+A==
+    size: 101741582
 path: >-
-  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.44/DH-Logix-Setup-2.3.44.exe
+  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.45/DH-Logix-Setup-2.3.45.exe
 sha512: >-
-  Jbz2Nbu4lWd2Zrj/7VGuaNGh6MdGyYtdD7XH5EpB36a/b1MdFjJLpWaxGeTsEZsAORRJjCr6Fdr6VdUAQE8skQ==
+  t+0pWDSv6EfZ4IlkvIleS3AqmtYNNicYpmFAjzvjuNWABphcv7ay4dtVEvb6tCBwn5lwT0RZWoxJOVpZFG/2+A==
 releaseNotes: >
+  Novo u verziji 2.3.45:
+
+  - Promjene s mobitela stižu za najviše 8 sekundi (prije do 45), i odmah kad se
+  vratite u prozor programa.
+
+  - Novi termin s mobitela dolazi kao velika bijela kartica (vrijeme, vozilo,
+  stranka, usluga, gumbi „Otvori termin” i „U redu”) koja izleti iz Kalendara i
+  vrati se u njega.
+
+
   Novo u verziji 2.3.44:
 
   - Obavijest izlazi iz stavke izbornika kao duh iz boce: zakrivljeni plavi trag
@@ -152,4 +162,4 @@ releaseNotes: >
 
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku
   mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-18T14:12:00.057Z'
+releaseDate: '2026-11-18T14:40:06.335Z'
