@@ -1,15 +1,23 @@
-version: 2.3.41
+version: 2.3.42
 files:
   - url: >-
-      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.41/DH-Logix-Setup-2.3.41.exe
+      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.42/DH-Logix-Setup-2.3.42.exe
     sha512: >-
-      7q9VoINZ4a5fhM0XhUEPMh9/hshibu+AiezZ0dI8ce6H1Zv7FH/rR9qdVtotKB5PyIi0rzmC5Pb6h/CG0ZtWLQ==
-    size: 101748542
+      V61DQoilXGEDFIx9xWZY3EMtlD6PvvuAHKM9/Zz1dVjgh5V0iFUGWWCeNeFWfxG/4BFnPhJBHpVYcUoB+GEYpQ==
+    size: 101748717
 path: >-
-  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.41/DH-Logix-Setup-2.3.41.exe
+  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.42/DH-Logix-Setup-2.3.42.exe
 sha512: >-
-  7q9VoINZ4a5fhM0XhUEPMh9/hshibu+AiezZ0dI8ce6H1Zv7FH/rR9qdVtotKB5PyIi0rzmC5Pb6h/CG0ZtWLQ==
+  V61DQoilXGEDFIx9xWZY3EMtlD6PvvuAHKM9/Zz1dVjgh5V0iFUGWWCeNeFWfxG/4BFnPhJBHpVYcUoB+GEYpQ==
 releaseNotes: >
+  Novo u verziji 2.3.42:
+
+  - Promjene s mobitela ili drugog računala (novi termin, radni nalog, ponuda,
+  prihvaćena ponuda, upit/narudžba dijelova, stranka, vozilo, čekaonica) dolaze
+  kao kartica „kao duh” iz pripadne stavke izbornika, a broj ostaje uz stavku
+  dok je ne otvorite.
+
+
   Novo u verziji 2.3.41:
 
   - Obavijesti „kao duh iz boce”: izlaze iz stavke izbornika kojoj pripadaju
@@ -127,4 +135,4 @@ releaseNotes: >
 
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku
   mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-18T12:48:27.106Z'
+releaseDate: '2026-11-18T13:25:53.466Z'
