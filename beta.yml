@@ -1,15 +1,29 @@
-version: 2.3.50
+version: 2.3.51
 files:
   - url: >-
-      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.50/DH-Logix-Setup-2.3.50.exe
+      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.51/DH-Logix-Setup-2.3.51.exe
     sha512: >-
-      w1S1In7IjM68ZroF5lTZY7tjKR55kgCV3cltNa4gwifFYEXapvBJ7UnepTHGBlN3qFTnyu6SXdLU0Ka4fXD0iQ==
-    size: 101773452
+      hzmR+k9OJEKBd6fDBkwsoYHlUwpQVLmQQGa5y2PT5O6A5VPAzNfFlOA9D+0AI3wiKaAxZjkHnsBQ65161QuklA==
+    size: 101775318
 path: >-
-  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.50/DH-Logix-Setup-2.3.50.exe
+  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.51/DH-Logix-Setup-2.3.51.exe
 sha512: >-
-  w1S1In7IjM68ZroF5lTZY7tjKR55kgCV3cltNa4gwifFYEXapvBJ7UnepTHGBlN3qFTnyu6SXdLU0Ka4fXD0iQ==
+  hzmR+k9OJEKBd6fDBkwsoYHlUwpQVLmQQGa5y2PT5O6A5VPAzNfFlOA9D+0AI3wiKaAxZjkHnsBQ65161QuklA==
 releaseNotes: >
+  Novo u verziji 2.3.51:
+
+  - Postavke servisa su jedan ekran s karticama (Općenito, Podaci servisa,
+  Cijene i PDV, Dobavljači, Ispis i e-mail, Sigurnosna kopija, Izgled) – klik
+  prikazuje samo tu karticu, zadnja odabrana se pamti.
+
+  - Narudžba dijelova: gumbi na dnu prozora (Obriši, Izradi radni nalog,
+  ponudu…) više ne izlaze van prozora; „Upit za ponudu” i „Narudžba dijelova” su
+  jedan do drugog.
+
+  - Gumbi prozora gore desno (smanji / uvećaj / zatvori) ostaju vidljivi i nakon
+  minimiziranja i vraćanja programa.
+
+
   Novo u verziji 2.3.50:
 
   - Upit za ponudu u izgledu po Damirovom primjeru.
@@ -226,4 +240,4 @@ releaseNotes: >
 
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku
   mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-18T17:40:06.822Z'
+releaseDate: '2026-11-19T14:54:47.425Z'
