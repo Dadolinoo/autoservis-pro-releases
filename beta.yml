@@ -1,15 +1,31 @@
-version: 2.3.52
+version: 2.3.53
 files:
   - url: >-
-      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.52/DH-Logix-Setup-2.3.52.exe
+      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.53/DH-Logix-Setup-2.3.53.exe
     sha512: >-
-      5s1E2uVklY5wilXeZX/HYNeOxJnIzvBXH+8mpdFnQP0DN3TvrkEkLskrNfmdR1WZ4gEW70bpd+4uqIxEw3MUwQ==
-    size: 101781337
+      rI8HYA1QrIZ7ZHaBRvoj2d3On2ZVCMQPCBt1vcxodUlwEL7lFECGgp2r8QcTM61YgdWTlcawWLo4AYmYmhcJBA==
+    size: 101784506
 path: >-
-  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.52/DH-Logix-Setup-2.3.52.exe
+  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.53/DH-Logix-Setup-2.3.53.exe
 sha512: >-
-  5s1E2uVklY5wilXeZX/HYNeOxJnIzvBXH+8mpdFnQP0DN3TvrkEkLskrNfmdR1WZ4gEW70bpd+4uqIxEw3MUwQ==
+  rI8HYA1QrIZ7ZHaBRvoj2d3On2ZVCMQPCBt1vcxodUlwEL7lFECGgp2r8QcTM61YgdWTlcawWLo4AYmYmhcJBA==
 releaseNotes: >
+  Novo u verziji 2.3.53:
+
+  - Postavke: kartice se više ne preklapaju (Sigurnosna kopija, Podaci programa,
+  Sinkronizacija i popis kopija); popis kopija ostaje unutar svoje kartice, a
+  široke kartice zauzimaju cijeli red.
+
+  - Tamna tema uređena u cijelom programu: tamne kartice sa svijetlim tekstom,
+  čitljivi naslovi i statistike na nadzornoj ploči, registracije kao bijela
+  pločica s tamnim slovima, tamna zaglavlja tablica, gumbi brzog pristupa i
+  oznake statusa u tamnoj nijansi svoje boje; isto vrijedi za Postavke, Usluge,
+  Narudžbe, Kalendar, Licencu, prozore i vodič. Bez bijelih površina koje bodu u
+  oči: registracije su tamne pločice sa svijetlim slovima, tekst je svijetlosiv
+  umjesto bijelog, plavi gumbi i banner su prigušeni; barkod „Slikaj i plati”
+  ostaje svijetao (u tamnom okviru) da se može skenirati.
+
+
   Novo u verziji 2.3.52:
 
   - Postavke posložene po karticama: Podaci servisa (podaci, logo, javna lista),
@@ -256,4 +272,4 @@ releaseNotes: >
 
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku
   mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-19T15:18:40.477Z'
+releaseDate: '2026-11-19T15:56:33.793Z'
