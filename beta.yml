@@ -1,15 +1,37 @@
-version: 2.3.56
+version: 2.3.57
 files:
   - url: >-
-      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.56/DH-Logix-Setup-2.3.56.exe
+      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.57/DH-Logix-Setup-2.3.57.exe
     sha512: >-
-      1sC2VEwChc/aF8YNjlk8/q27RLkOty+5dkoYHrl8pBbPmxtBuzyWuGQMOSXpOzfO+NNJ/b3sQr5l68eLHev83w==
-    size: 101785178
+      m+lCZmS6g4PrZBN9OpESqfEGdxDY9iTX6hMfbcg5dSO7YmEvQsoBpY5ZDydqrnnv9g9vIfpceaAEn6jPhv6Aeg==
+    size: 101796731
 path: >-
-  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.56/DH-Logix-Setup-2.3.56.exe
+  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.57/DH-Logix-Setup-2.3.57.exe
 sha512: >-
-  1sC2VEwChc/aF8YNjlk8/q27RLkOty+5dkoYHrl8pBbPmxtBuzyWuGQMOSXpOzfO+NNJ/b3sQr5l68eLHev83w==
+  m+lCZmS6g4PrZBN9OpESqfEGdxDY9iTX6hMfbcg5dSO7YmEvQsoBpY5ZDydqrnnv9g9vIfpceaAEn6jPhv6Aeg==
 releaseNotes: >
+  Novo u verziji 2.3.57:
+
+  - Zvuk obavijesti: kratki ton kad stigne nova obavijest (online upit,
+  podsjetnik termina, promjena s mobitela, nova verzija). Zasebna ikona zvučnika
+  lijevo od zvonca jednim klikom uključuje ili isključuje zvuk (isključeno =
+  precrtani zvučnik); zvonce je samo za obavijesti. Na dnu zvonca piše trenutni
+  ton, a „Promijeni” vodi u Postavke → Izgled, gdje se bira jedan od 10 tonova –
+  Blagi, Zvonce, Kratki, Dvostruki, Trostruki, Kristal, Kapljica, Akord, Odjek,
+  Signal – uz probu na klik. Kad stigne više obavijesti odjednom, čuje se samo
+  jedan ton; pri pokretanju programa ne svira. Windows obavijesti dok je program
+  u pozadini imaju zvuk, a kad je zvuk isključen su tihe.
+
+  - Tamna tema: logotipi marki automobila (Audi, VW, Mercedes, Opel, Peugeot,
+  Ford, Hyundai…) sada se jasno vide – tamni logotipi automatski postaju
+  svijetli (crni i sivi srebrno-bijeli, plavi svijetloplavi, crveni jasno
+  crveni), bez bijelih pločica. U svijetloj temi ostaju izvorne boje.
+
+  - Gumbi prozora gore desno obojani su i jasno se vide u obje teme: Smanji
+  žuto, Uvećaj/Vrati zeleno, Zatvori crveno (isti oblik i ikone, lagana obojena
+  pozadina na prelazak miša).
+
+
   Novo u verziji 2.3.56:
 
   - Upit za ponudu (WhatsApp / e-mail): naslov „UPIT ZA PONUDU” i naziv servisa
@@ -299,4 +321,4 @@ releaseNotes: >
 
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku
   mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-19T19:08:14.966Z'
+releaseDate: '2026-11-19T20:22:11.222Z'

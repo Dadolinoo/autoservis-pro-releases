@@ -1,11 +1,19 @@
-version: 2.3.55
+version: 2.3.57
 files:
-  - url: DH-Logix-Setup-2.3.55.exe
-    sha512: C6B1pvYNlSQm4Iv5khxOui2W26prT0AIvkINe+fURCWIHxloVfHz37fK+3MCLXUS2Rci1aGAetW7E79B75AGMQ==
-    size: 101789708
-path: DH-Logix-Setup-2.3.55.exe
-sha512: C6B1pvYNlSQm4Iv5khxOui2W26prT0AIvkINe+fURCWIHxloVfHz37fK+3MCLXUS2Rci1aGAetW7E79B75AGMQ==
+  - url: DH-Logix-Setup-2.3.57.exe
+    sha512: m+lCZmS6g4PrZBN9OpESqfEGdxDY9iTX6hMfbcg5dSO7YmEvQsoBpY5ZDydqrnnv9g9vIfpceaAEn6jPhv6Aeg==
+    size: 101796731
+path: DH-Logix-Setup-2.3.57.exe
+sha512: m+lCZmS6g4PrZBN9OpESqfEGdxDY9iTX6hMfbcg5dSO7YmEvQsoBpY5ZDydqrnnv9g9vIfpceaAEn6jPhv6Aeg==
 releaseNotes: |
+  Novo u verziji 2.3.57:
+  - Zvuk obavijesti: kratki ton kad stigne nova obavijest (online upit, podsjetnik termina, promjena s mobitela, nova verzija). Zasebna ikona zvučnika lijevo od zvonca jednim klikom uključuje ili isključuje zvuk (isključeno = precrtani zvučnik); zvonce je samo za obavijesti. Na dnu zvonca piše trenutni ton, a „Promijeni” vodi u Postavke → Izgled, gdje se bira jedan od 10 tonova – Blagi, Zvonce, Kratki, Dvostruki, Trostruki, Kristal, Kapljica, Akord, Odjek, Signal – uz probu na klik. Kad stigne više obavijesti odjednom, čuje se samo jedan ton; pri pokretanju programa ne svira. Windows obavijesti dok je program u pozadini imaju zvuk, a kad je zvuk isključen su tihe.
+  - Tamna tema: logotipi marki automobila (Audi, VW, Mercedes, Opel, Peugeot, Ford, Hyundai…) sada se jasno vide – tamni logotipi automatski postaju svijetli (crni i sivi srebrno-bijeli, plavi svijetloplavi, crveni jasno crveni), bez bijelih pločica. U svijetloj temi ostaju izvorne boje.
+  - Gumbi prozora gore desno obojani su i jasno se vide u obje teme: Smanji žuto, Uvećaj/Vrati zeleno, Zatvori crveno (isti oblik i ikone, lagana obojena pozadina na prelazak miša).
+
+  Novo u verziji 2.3.56:
+  - Upit za ponudu (WhatsApp / e-mail): naslov „UPIT ZA PONUDU” i naziv servisa centrirani su iznad crte, gornja crta je ista isprekidana crta kao donja (cijela širina), a poruka završava s „Poslano iz DH-Logix”.
+
   Novo u verziji 2.3.55:
   - Licenca → Cjenik i odabir licence: uz licencu se može označiti dodatak „Mobilna aplikacija (dodatak licenci)” s cijenom iz cjenika (mjesečno ili godišnje prema odabranom razdoblju). Ukupan iznos se odmah preračuna, a zahtjev autoru sadrži dodatak i njegovu cijenu. Dok cijena dodatka nije objavljena, kvačica se ne prikazuje.
   - Dodatak se svugdje zove „Mobilna aplikacija (dodatak licenci)” – to je mobilna aplikacija servisa, plaća se uz licencu.
@@ -114,4 +122,4 @@ releaseNotes: |
   - Postavke servisa: kartice preko cijele širine; na užem prozoru kartice su u karticama Općenito, Podaci servisa, Cijene i PDV, Dobavljači, Ispis, Sigurnosna kopija i Izgled.
   - Cjenik: otvoren uređivač više ne siječe stupac cijene. Tablice se sužavaju s prozorom i prvo skrivaju manje važne stupce.
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-19T18:21:11.027Z'
+releaseDate: '2026-11-19T20:22:11.222Z'
