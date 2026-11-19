@@ -1,15 +1,31 @@
-version: 2.3.51
+version: 2.3.52
 files:
   - url: >-
-      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.51/DH-Logix-Setup-2.3.51.exe
+      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.52/DH-Logix-Setup-2.3.52.exe
     sha512: >-
-      hzmR+k9OJEKBd6fDBkwsoYHlUwpQVLmQQGa5y2PT5O6A5VPAzNfFlOA9D+0AI3wiKaAxZjkHnsBQ65161QuklA==
-    size: 101775318
+      5s1E2uVklY5wilXeZX/HYNeOxJnIzvBXH+8mpdFnQP0DN3TvrkEkLskrNfmdR1WZ4gEW70bpd+4uqIxEw3MUwQ==
+    size: 101781337
 path: >-
-  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.51/DH-Logix-Setup-2.3.51.exe
+  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.52/DH-Logix-Setup-2.3.52.exe
 sha512: >-
-  hzmR+k9OJEKBd6fDBkwsoYHlUwpQVLmQQGa5y2PT5O6A5VPAzNfFlOA9D+0AI3wiKaAxZjkHnsBQ65161QuklA==
+  5s1E2uVklY5wilXeZX/HYNeOxJnIzvBXH+8mpdFnQP0DN3TvrkEkLskrNfmdR1WZ4gEW70bpd+4uqIxEw3MUwQ==
 releaseNotes: >
+  Novo u verziji 2.3.52:
+
+  - Postavke posložene po karticama: Podaci servisa (podaci, logo, javna lista),
+  Općenito (jezik, datum i sat, podsjetnik, dizalice, mehaničari, skladište,
+  ažuriranja), Sigurnosna kopija (kopija, podaci programa, sinkronizacija, koš).
+
+  - Kartice u Postavkama slažu se u stupce bez praznih rupa i prilagođavaju se
+  širini prozora.
+
+  - Brzi unosi premješteni su iz Postavki u Usluge i cjenik (nova kartica „Brzi
+  unosi” s gumbom Spremi); link „Uredi brze unose” vodi tamo.
+
+  - Cijene i PDV (stopa PDV-a, valjanost ponude, cijene bez PDV-a) premješteni
+  su iz Postavki u Usluge i cjenik → Cijene i PDV, sa svojim gumbom Spremi.
+
+
   Novo u verziji 2.3.51:
 
   - Postavke servisa su jedan ekran s karticama (Općenito, Podaci servisa,
@@ -240,4 +256,4 @@ releaseNotes: >
 
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku
   mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-19T14:54:47.425Z'
+releaseDate: '2026-11-19T15:18:40.477Z'
