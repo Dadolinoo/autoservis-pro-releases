@@ -1,11 +1,15 @@
-version: 2.3.54
+version: 2.3.55
 files:
-  - url: DH-Logix-Setup-2.3.54.exe
-    sha512: qSYqDtmeRoy64pajaSm9eNpslHUJricYXYalCtEWc107F8qUi9/kBPdyya+dBsvT/SjbpFt5R/Fc5HugMSsaAw==
-    size: 101787611
-path: DH-Logix-Setup-2.3.54.exe
-sha512: qSYqDtmeRoy64pajaSm9eNpslHUJricYXYalCtEWc107F8qUi9/kBPdyya+dBsvT/SjbpFt5R/Fc5HugMSsaAw==
+  - url: DH-Logix-Setup-2.3.55.exe
+    sha512: C6B1pvYNlSQm4Iv5khxOui2W26prT0AIvkINe+fURCWIHxloVfHz37fK+3MCLXUS2Rci1aGAetW7E79B75AGMQ==
+    size: 101789708
+path: DH-Logix-Setup-2.3.55.exe
+sha512: C6B1pvYNlSQm4Iv5khxOui2W26prT0AIvkINe+fURCWIHxloVfHz37fK+3MCLXUS2Rci1aGAetW7E79B75AGMQ==
 releaseNotes: |
+  Novo u verziji 2.3.55:
+  - Licenca → Cjenik i odabir licence: uz licencu se može označiti dodatak „Mobilna aplikacija (dodatak licenci)” s cijenom iz cjenika (mjesečno ili godišnje prema odabranom razdoblju). Ukupan iznos se odmah preračuna, a zahtjev autoru sadrži dodatak i njegovu cijenu. Dok cijena dodatka nije objavljena, kvačica se ne prikazuje.
+  - Dodatak se svugdje zove „Mobilna aplikacija (dodatak licenci)” – to je mobilna aplikacija servisa, plaća se uz licencu.
+
   Novo u verziji 2.3.54:
   - Mobilna aplikacija je za postojeće licence i probu besplatna do 31.12.2026. Od 1.1.2027. radi samo uz plaćeni dodatak „Mobilna aplikacija” (nova licenca). Prelazak je automatski, bez ponovnog pokretanja; podaci na mobitelu ostaju. Na stranici Licenca piše do kada je mobilna besplatna.
 
@@ -110,4 +114,4 @@ releaseNotes: |
   - Postavke servisa: kartice preko cijele širine; na užem prozoru kartice su u karticama Općenito, Podaci servisa, Cijene i PDV, Dobavljači, Ispis, Sigurnosna kopija i Izgled.
   - Cjenik: otvoren uređivač više ne siječe stupac cijene. Tablice se sužavaju s prozorom i prvo skrivaju manje važne stupce.
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-19T17:31:36.146Z'
+releaseDate: '2026-11-19T18:21:11.027Z'
