@@ -1,15 +1,23 @@
-version: 2.3.53
+version: 2.3.54
 files:
   - url: >-
-      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.53/DH-Logix-Setup-2.3.53.exe
+      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.54/DH-Logix-Setup-2.3.54.exe
     sha512: >-
-      rI8HYA1QrIZ7ZHaBRvoj2d3On2ZVCMQPCBt1vcxodUlwEL7lFECGgp2r8QcTM61YgdWTlcawWLo4AYmYmhcJBA==
-    size: 101784506
+      qSYqDtmeRoy64pajaSm9eNpslHUJricYXYalCtEWc107F8qUi9/kBPdyya+dBsvT/SjbpFt5R/Fc5HugMSsaAw==
+    size: 101787611
 path: >-
-  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.53/DH-Logix-Setup-2.3.53.exe
+  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.54/DH-Logix-Setup-2.3.54.exe
 sha512: >-
-  rI8HYA1QrIZ7ZHaBRvoj2d3On2ZVCMQPCBt1vcxodUlwEL7lFECGgp2r8QcTM61YgdWTlcawWLo4AYmYmhcJBA==
+  qSYqDtmeRoy64pajaSm9eNpslHUJricYXYalCtEWc107F8qUi9/kBPdyya+dBsvT/SjbpFt5R/Fc5HugMSsaAw==
 releaseNotes: >
+  Novo u verziji 2.3.54:
+
+  - Mobilna aplikacija je za postojeće licence i probu besplatna do 31.12.2026.
+  Od 1.1.2027. radi samo uz plaćeni dodatak „Mobilna aplikacija” (nova licenca).
+  Prelazak je automatski, bez ponovnog pokretanja; podaci na mobitelu ostaju. Na
+  stranici Licenca piše do kada je mobilna besplatna.
+
+
   Novo u verziji 2.3.53:
 
   - Postavke: kartice se više ne preklapaju (Sigurnosna kopija, Podaci programa,
@@ -272,4 +280,4 @@ releaseNotes: >
 
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku
   mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-19T15:56:33.793Z'
+releaseDate: '2026-11-19T17:31:36.146Z'
