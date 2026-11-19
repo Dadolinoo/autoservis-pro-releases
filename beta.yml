@@ -1,15 +1,22 @@
-version: 2.3.55
+version: 2.3.56
 files:
   - url: >-
-      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.55/DH-Logix-Setup-2.3.55.exe
+      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.56/DH-Logix-Setup-2.3.56.exe
     sha512: >-
-      C6B1pvYNlSQm4Iv5khxOui2W26prT0AIvkINe+fURCWIHxloVfHz37fK+3MCLXUS2Rci1aGAetW7E79B75AGMQ==
-    size: 101789708
+      1sC2VEwChc/aF8YNjlk8/q27RLkOty+5dkoYHrl8pBbPmxtBuzyWuGQMOSXpOzfO+NNJ/b3sQr5l68eLHev83w==
+    size: 101785178
 path: >-
-  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.55/DH-Logix-Setup-2.3.55.exe
+  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.56/DH-Logix-Setup-2.3.56.exe
 sha512: >-
-  C6B1pvYNlSQm4Iv5khxOui2W26prT0AIvkINe+fURCWIHxloVfHz37fK+3MCLXUS2Rci1aGAetW7E79B75AGMQ==
+  1sC2VEwChc/aF8YNjlk8/q27RLkOty+5dkoYHrl8pBbPmxtBuzyWuGQMOSXpOzfO+NNJ/b3sQr5l68eLHev83w==
 releaseNotes: >
+  Novo u verziji 2.3.56:
+
+  - Upit za ponudu (WhatsApp / e-mail): naslov „UPIT ZA PONUDU” i naziv servisa
+  centrirani su iznad crte, gornja crta je ista isprekidana crta kao donja
+  (cijela širina), a poruka završava s „Poslano iz DH-Logix”.
+
+
   Novo u verziji 2.3.55:
 
   - Licenca → Cjenik i odabir licence: uz licencu se može označiti dodatak
@@ -292,4 +299,4 @@ releaseNotes: >
 
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku
   mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-19T18:21:11.027Z'
+releaseDate: '2026-11-19T19:08:14.966Z'
