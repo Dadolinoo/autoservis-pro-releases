@@ -1,14 +1,14 @@
-version: 2.3.59
+version: 2.3.60
 files:
   - url: >-
-      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.59/DH-Logix-Setup-2.3.59.exe
+      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.60/DH-Logix-Setup-2.3.60.exe
     sha512: >-
-      Pm0Q3Fs+O7Wq1bul8wde5lYGmBYDtjMFMCM6GJ0lB3UVF8oeU7zvaZ8SxybjgueuUEgYERHiiuRSfTd9WL1gOg==
-    size: 101828061
+      IhukyTv02Cyg3njVG8q44Hv7pfvbSlJ7SHR8Ok7NMAs0Y9bWZxMGlMd65RrzptGlC/5M+Uu8G9Gub94rdb2lrw==
+    size: 101834815
 path: >-
-  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.59/DH-Logix-Setup-2.3.59.exe
+  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.60/DH-Logix-Setup-2.3.60.exe
 sha512: >-
-  Pm0Q3Fs+O7Wq1bul8wde5lYGmBYDtjMFMCM6GJ0lB3UVF8oeU7zvaZ8SxybjgueuUEgYERHiiuRSfTd9WL1gOg==
+  IhukyTv02Cyg3njVG8q44Hv7pfvbSlJ7SHR8Ok7NMAs0Y9bWZxMGlMd65RrzptGlC/5M+Uu8G9Gub94rdb2lrw==
 releaseNotes: |
-  Testna 2.3.59: računi (pretpregled, odobrenja po stavkama, prenesi u novi račun), uvoz primke iz eRačuna XML, grupiranje i pretraga, povijest klijenta.
-releaseDate: '2026-11-22T12:49:59.592Z'
+  Testna 2.3.60: narudžbe dijelova same se zatvaraju kad se povezani nalog završi ili izda račun; sve iz 2.3.59.
+releaseDate: '2026-11-22T13:19:09.943Z'
