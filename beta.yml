@@ -1,324 +1,129 @@
-version: 2.3.57
+version: 2.3.58
 files:
   - url: >-
-      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.57/DH-Logix-Setup-2.3.57.exe
+      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.58/DH-Logix-Setup-2.3.58.exe
     sha512: >-
-      m+lCZmS6g4PrZBN9OpESqfEGdxDY9iTX6hMfbcg5dSO7YmEvQsoBpY5ZDydqrnnv9g9vIfpceaAEn6jPhv6Aeg==
-    size: 101796731
+      SVztav8rODDdy2q8SQSTBjXLEvM7ztM6p0hDyv0yhzCPBvov7qg56Q8P8DGuVIzInX1x+Ugun/hNbGSlrqT6Aw==
+    size: 101800432
 path: >-
-  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.57/DH-Logix-Setup-2.3.57.exe
+  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.58/DH-Logix-Setup-2.3.58.exe
 sha512: >-
-  m+lCZmS6g4PrZBN9OpESqfEGdxDY9iTX6hMfbcg5dSO7YmEvQsoBpY5ZDydqrnnv9g9vIfpceaAEn6jPhv6Aeg==
-releaseNotes: >
+  SVztav8rODDdy2q8SQSTBjXLEvM7ztM6p0hDyv0yhzCPBvov7qg56Q8P8DGuVIzInX1x+Ugun/hNbGSlrqT6Aw==
+releaseNotes: |
   Novo u verziji 2.3.57:
-
-  - Zvuk obavijesti: kratki ton kad stigne nova obavijest (online upit,
-  podsjetnik termina, promjena s mobitela, nova verzija). Zasebna ikona zvučnika
-  lijevo od zvonca jednim klikom uključuje ili isključuje zvuk (isključeno =
-  precrtani zvučnik); zvonce je samo za obavijesti. Na dnu zvonca piše trenutni
-  ton, a „Promijeni” vodi u Postavke → Izgled, gdje se bira jedan od 10 tonova –
-  Blagi, Zvonce, Kratki, Dvostruki, Trostruki, Kristal, Kapljica, Akord, Odjek,
-  Signal – uz probu na klik. Kad stigne više obavijesti odjednom, čuje se samo
-  jedan ton; pri pokretanju programa ne svira. Windows obavijesti dok je program
-  u pozadini imaju zvuk, a kad je zvuk isključen su tihe.
-
-  - Tamna tema: logotipi marki automobila (Audi, VW, Mercedes, Opel, Peugeot,
-  Ford, Hyundai…) sada se jasno vide – tamni logotipi automatski postaju
-  svijetli (crni i sivi srebrno-bijeli, plavi svijetloplavi, crveni jasno
-  crveni), bez bijelih pločica. U svijetloj temi ostaju izvorne boje.
-
-  - Gumbi prozora gore desno obojani su i jasno se vide u obje teme: Smanji
-  žuto, Uvećaj/Vrati zeleno, Zatvori crveno (isti oblik i ikone, lagana obojena
-  pozadina na prelazak miša).
-
+  - Zvuk obavijesti: kratki ton kad stigne nova obavijest (online upit, podsjetnik termina, promjena s mobitela, nova verzija). Zasebna ikona zvučnika lijevo od zvonca jednim klikom uključuje ili isključuje zvuk (isključeno = precrtani zvučnik); zvonce je samo za obavijesti. Na dnu zvonca piše trenutni ton, a „Promijeni” vodi u Postavke → Izgled, gdje se bira jedan od 10 tonova – Blagi, Zvonce, Kratki, Dvostruki, Trostruki, Kristal, Kapljica, Akord, Odjek, Signal – uz probu na klik. Kad stigne više obavijesti odjednom, čuje se samo jedan ton; pri pokretanju programa ne svira. Windows obavijesti dok je program u pozadini imaju zvuk, a kad je zvuk isključen su tihe.
+  - Tamna tema: logotipi marki automobila (Audi, VW, Mercedes, Opel, Peugeot, Ford, Hyundai…) sada se jasno vide – tamni logotipi automatski postaju svijetli (crni i sivi srebrno-bijeli, plavi svijetloplavi, crveni jasno crveni), bez bijelih pločica. U svijetloj temi ostaju izvorne boje.
+  - Gumbi prozora gore desno obojani su i jasno se vide u obje teme: Smanji žuto, Uvećaj/Vrati zeleno, Zatvori crveno (isti oblik i ikone, lagana obojena pozadina na prelazak miša).
 
   Novo u verziji 2.3.56:
-
-  - Upit za ponudu (WhatsApp / e-mail): naslov „UPIT ZA PONUDU” i naziv servisa
-  centrirani su iznad crte, gornja crta je ista isprekidana crta kao donja
-  (cijela širina), a poruka završava s „Poslano iz DH-Logix”.
-
+  - Upit za ponudu (WhatsApp / e-mail): naslov „UPIT ZA PONUDU” i naziv servisa centrirani su iznad crte, gornja crta je ista isprekidana crta kao donja (cijela širina), a poruka završava s „Poslano iz DH-Logix”.
 
   Novo u verziji 2.3.55:
-
-  - Licenca → Cjenik i odabir licence: uz licencu se može označiti dodatak
-  „Mobilna aplikacija (dodatak licenci)” s cijenom iz cjenika (mjesečno ili
-  godišnje prema odabranom razdoblju). Ukupan iznos se odmah preračuna, a
-  zahtjev autoru sadrži dodatak i njegovu cijenu. Dok cijena dodatka nije
-  objavljena, kvačica se ne prikazuje.
-
-  - Dodatak se svugdje zove „Mobilna aplikacija (dodatak licenci)” – to je
-  mobilna aplikacija servisa, plaća se uz licencu.
-
+  - Licenca → Cjenik i odabir licence: uz licencu se može označiti dodatak „Mobilna aplikacija (dodatak licenci)” s cijenom iz cjenika (mjesečno ili godišnje prema odabranom razdoblju). Ukupan iznos se odmah preračuna, a zahtjev autoru sadrži dodatak i njegovu cijenu. Dok cijena dodatka nije objavljena, kvačica se ne prikazuje.
+  - Dodatak se svugdje zove „Mobilna aplikacija (dodatak licenci)” – to je mobilna aplikacija servisa, plaća se uz licencu.
 
   Novo u verziji 2.3.54:
-
-  - Mobilna aplikacija je za postojeće licence i probu besplatna do 31.12.2026.
-  Od 1.1.2027. radi samo uz plaćeni dodatak „Mobilna aplikacija” (nova licenca).
-  Prelazak je automatski, bez ponovnog pokretanja; podaci na mobitelu ostaju. Na
-  stranici Licenca piše do kada je mobilna besplatna.
-
+  - Mobilna aplikacija je za postojeće licence i probu besplatna do 31.12.2026. Od 1.1.2027. radi samo uz plaćeni dodatak „Mobilna aplikacija” (nova licenca). Prelazak je automatski, bez ponovnog pokretanja; podaci na mobitelu ostaju. Na stranici Licenca piše do kada je mobilna besplatna.
 
   Novo u verziji 2.3.53:
-
-  - Postavke: kartice se više ne preklapaju (Sigurnosna kopija, Podaci programa,
-  Sinkronizacija i popis kopija); popis kopija ostaje unutar svoje kartice, a
-  široke kartice zauzimaju cijeli red.
-
-  - Tamna tema uređena u cijelom programu: tamne kartice sa svijetlim tekstom,
-  čitljivi naslovi i statistike na nadzornoj ploči, registracije kao bijela
-  pločica s tamnim slovima, tamna zaglavlja tablica, gumbi brzog pristupa i
-  oznake statusa u tamnoj nijansi svoje boje; isto vrijedi za Postavke, Usluge,
-  Narudžbe, Kalendar, Licencu, prozore i vodič. Bez bijelih površina koje bodu u
-  oči: registracije su tamne pločice sa svijetlim slovima, tekst je svijetlosiv
-  umjesto bijelog, plavi gumbi i banner su prigušeni; barkod „Slikaj i plati”
-  ostaje svijetao (u tamnom okviru) da se može skenirati.
-
+  - Postavke: kartice se više ne preklapaju (Sigurnosna kopija, Podaci programa, Sinkronizacija i popis kopija); popis kopija ostaje unutar svoje kartice, a široke kartice zauzimaju cijeli red.
+  - Tamna tema uređena u cijelom programu: tamne kartice sa svijetlim tekstom, čitljivi naslovi i statistike na nadzornoj ploči, registracije kao bijela pločica s tamnim slovima, tamna zaglavlja tablica, gumbi brzog pristupa i oznake statusa u tamnoj nijansi svoje boje; isto vrijedi za Postavke, Usluge, Narudžbe, Kalendar, Licencu, prozore i vodič. Bez bijelih površina koje bodu u oči: registracije su tamne pločice sa svijetlim slovima, tekst je svijetlosiv umjesto bijelog, plavi gumbi i banner su prigušeni; barkod „Slikaj i plati” ostaje svijetao (u tamnom okviru) da se može skenirati.
 
   Novo u verziji 2.3.52:
-
-  - Postavke posložene po karticama: Podaci servisa (podaci, logo, javna lista),
-  Općenito (jezik, datum i sat, podsjetnik, dizalice, mehaničari, skladište,
-  ažuriranja), Sigurnosna kopija (kopija, podaci programa, sinkronizacija, koš).
-
-  - Kartice u Postavkama slažu se u stupce bez praznih rupa i prilagođavaju se
-  širini prozora.
-
-  - Brzi unosi premješteni su iz Postavki u Usluge i cjenik (nova kartica „Brzi
-  unosi” s gumbom Spremi); link „Uredi brze unose” vodi tamo.
-
-  - Cijene i PDV (stopa PDV-a, valjanost ponude, cijene bez PDV-a) premješteni
-  su iz Postavki u Usluge i cjenik → Cijene i PDV, sa svojim gumbom Spremi.
-
+  - Postavke posložene po karticama: Podaci servisa (podaci, logo, javna lista), Općenito (jezik, datum i sat, podsjetnik, dizalice, mehaničari, skladište, ažuriranja), Sigurnosna kopija (kopija, podaci programa, sinkronizacija, koš).
+  - Kartice u Postavkama slažu se u stupce bez praznih rupa i prilagođavaju se širini prozora.
+  - Brzi unosi premješteni su iz Postavki u Usluge i cjenik (nova kartica „Brzi unosi” s gumbom Spremi); link „Uredi brze unose” vodi tamo.
+  - Cijene i PDV (stopa PDV-a, valjanost ponude, cijene bez PDV-a) premješteni su iz Postavki u Usluge i cjenik → Cijene i PDV, sa svojim gumbom Spremi.
 
   Novo u verziji 2.3.51:
-
-  - Postavke servisa su jedan ekran s karticama (Općenito, Podaci servisa,
-  Cijene i PDV, Dobavljači, Ispis i e-mail, Sigurnosna kopija, Izgled) – klik
-  prikazuje samo tu karticu, zadnja odabrana se pamti.
-
-  - Narudžba dijelova: gumbi na dnu prozora (Obriši, Izradi radni nalog,
-  ponudu…) više ne izlaze van prozora; „Upit za ponudu” i „Narudžba dijelova” su
-  jedan do drugog.
-
-  - Gumbi prozora gore desno (smanji / uvećaj / zatvori) ostaju vidljivi i nakon
-  minimiziranja i vraćanja programa.
-
+  - Postavke servisa su jedan ekran s karticama (Općenito, Podaci servisa, Cijene i PDV, Dobavljači, Ispis i e-mail, Sigurnosna kopija, Izgled) – klik prikazuje samo tu karticu, zadnja odabrana se pamti.
+  - Narudžba dijelova: gumbi na dnu prozora (Obriši, Izradi radni nalog, ponudu…) više ne izlaze van prozora; „Upit za ponudu” i „Narudžba dijelova” su jedan do drugog.
+  - Gumbi prozora gore desno (smanji / uvećaj / zatvori) ostaju vidljivi i nakon minimiziranja i vraćanja programa.
 
   Novo u verziji 2.3.50:
-
   - Upit za ponudu u izgledu po Damirovom primjeru.
-
   - Kalendar se otvara u tjednom prikazu.
-
-  - Nova kartica „Narudžbe dijelova”: klijent → što naručiti → WhatsApp Ciaku;
-  iz narudžbe jednim klikom radni nalog ili ponuda s prepisanim dijelovima.
-
+  - Nova kartica „Narudžbe dijelova”: klijent → što naručiti → WhatsApp Ciaku; iz narudžbe jednim klikom radni nalog ili ponuda s prepisanim dijelovima.
   - Podnožje izbornika: samo verzija i autor, centrirano.
-
-  - Jedan paket sa svim mogućnostima; dodaci: mobilna aplikacija za stranke i
-  uvoz starih podataka.
-
-  - Postavke → Dobavljači: broj i e-mail dobavljača spremaju se gumbom „Spremi”
-  po retku, a mijenjaju gumbom „Izmijeni”.
-
-  - Nadzorna ploča: gumb „Prilagodi” – uključite ili isključite kartice i
-  složite redoslijed; preostale kartice same se rašire i popune prostor.
-
-  - Upozorenje „PAŽNJA” o isteku licence izlazi iz stavke Licenca: 10 dana prije
-  isteka, sve češće kako se rok bliži.
-
+  - Jedan paket sa svim mogućnostima; dodaci: mobilna aplikacija za stranke i uvoz starih podataka.
+  - Postavke → Dobavljači: broj i e-mail dobavljača spremaju se gumbom „Spremi” po retku, a mijenjaju gumbom „Izmijeni”.
+  - Nadzorna ploča: gumb „Prilagodi” – uključite ili isključite kartice i složite redoslijed; preostale kartice same se rašire i popune prostor.
+  - Upozorenje „PAŽNJA” o isteku licence izlazi iz stavke Licenca: 10 dana prije isteka, sve češće kako se rok bliži.
 
   Novo u verziji 2.3.49:
-
   - Popravljen bijeli ekran kod klika na ✨ „Što želite napraviti?”.
-
-  - U postojećem nalogu veći prozor asistenta: „Što želite još dodati ili
-  izmijeniti?” – dodaj u dijelove, dodaj u rad ili „makni …”.
-
-  - Nakon dodavanja dijelova bira se slanje na WhatsApp: upit za ponudu ili
-  narudžba dijelova.
-
+  - U postojećem nalogu veći prozor asistenta: „Što želite još dodati ili izmijeniti?” – dodaj u dijelove, dodaj u rad ili „makni …”.
+  - Nakon dodavanja dijelova bira se slanje na WhatsApp: upit za ponudu ili narudžba dijelova.
 
   Novo u verziji 2.3.48:
-
-  - Vodič ✨ dolje desno: napišite što želite napraviti i odvede vas tamo;
-  savjeti pri prvom otvaranju stranica; prijedlozi sljedećeg koraka.
-
+  - Vodič ✨ dolje desno: napišite što želite napraviti i odvede vas tamo; savjeti pri prvom otvaranju stranica; prijedlozi sljedećeg koraka.
   - Ljepša poruka upita za dijelove (WhatsApp/e-mail).
-
-  - Tekst poruke možete urediti prije slanja (Uredi tekst ili dvoklik na
-  poruku).
-
+  - Tekst poruke možete urediti prije slanja (Uredi tekst ili dvoklik na poruku).
   - Asistent za dijelove i u postojećim nalozima (gumb „Naruči još dijelova”).
 
-
   Novo u verziji 2.3.47:
-
-  - Mali asistent u radnom nalogu: nakon odabira vozila pita „Što želite
-  naručiti?”, upisani tekst sam rastavi u dijelove i ponudi slanje upita na
-  WhatsApp.
-
+  - Mali asistent u radnom nalogu: nakon odabira vozila pita „Što želite naručiti?”, upisani tekst sam rastavi u dijelove i ponudi slanje upita na WhatsApp.
 
   Novo u verziji 2.3.46:
-
-  - Popravljeno: velika kartica termina se sama vraća u Kalendar i gumbi uvijek
-  reagiraju.
-
-  - Kad vozilu zadate termin ili otvorite radni nalog, vozilo samo izlazi iz
-  Čekaonice.
-
+  - Popravljeno: velika kartica termina se sama vraća u Kalendar i gumbi uvijek reagiraju.
+  - Kad vozilu zadate termin ili otvorite radni nalog, vozilo samo izlazi iz Čekaonice.
 
   Novo u verziji 2.3.45:
-
-  - Promjene s mobitela stižu za najviše 8 sekundi (prije do 45), i odmah kad se
-  vratite u prozor programa.
-
-  - Novi termin s mobitela dolazi kao velika bijela kartica (vrijeme, vozilo,
-  stranka, usluga, gumbi „Otvori termin” i „U redu”) koja izleti iz Kalendara i
-  vrati se u njega.
-
+  - Promjene s mobitela stižu za najviše 8 sekundi (prije do 45), i odmah kad se vratite u prozor programa.
+  - Novi termin s mobitela dolazi kao velika bijela kartica (vrijeme, vozilo, stranka, usluga, gumbi „Otvori termin” i „U redu”) koja izleti iz Kalendara i vrati se u njega.
 
   Novo u verziji 2.3.44:
-
-  - Obavijest izlazi iz stavke izbornika kao duh iz boce: zakrivljeni plavi trag
-  povezuje stavku i karticu dok leti, a kartica se pri povratku uvuče natrag
-  istim putem.
-
+  - Obavijest izlazi iz stavke izbornika kao duh iz boce: zakrivljeni plavi trag povezuje stavku i karticu dok leti, a kartica se pri povratku uvuče natrag istim putem.
 
   Novo u verziji 2.3.43:
-
-  - Kartice obavijesti sporije i jasnije izlaze iz stavke izbornika i vraćaju se
-  u nju („kao duh”), uz vidljiv trag, i sada uvijek, i kad su u Windowsu ugašeni
-  efekti animacije.
-
-  - Obavijesti ostaju dulje na ekranu: one s mobitela 7 sekundi, a novi termin i
-  prihvaćena ponuda 12 sekundi.
-
+  - Kartice obavijesti sporije i jasnije izlaze iz stavke izbornika i vraćaju se u nju („kao duh”), uz vidljiv trag, i sada uvijek, i kad su u Windowsu ugašeni efekti animacije.
+  - Obavijesti ostaju dulje na ekranu: one s mobitela 7 sekundi, a novi termin i prihvaćena ponuda 12 sekundi.
 
   Novo u verziji 2.3.42:
-
-  - Promjene s mobitela ili drugog računala (novi termin, radni nalog, ponuda,
-  prihvaćena ponuda, upit/narudžba dijelova, stranka, vozilo, čekaonica) dolaze
-  kao kartica „kao duh” iz pripadne stavke izbornika, a broj ostaje uz stavku
-  dok je ne otvorite.
-
+  - Promjene s mobitela ili drugog računala (novi termin, radni nalog, ponuda, prihvaćena ponuda, upit/narudžba dijelova, stranka, vozilo, čekaonica) dolaze kao kartica „kao duh” iz pripadne stavke izbornika, a broj ostaje uz stavku dok je ne otvorite.
 
   Novo u verziji 2.3.41:
-
-  - Obavijesti „kao duh iz boce”: izlaze iz stavke izbornika kojoj pripadaju
-  (npr. Kalendar, Ponude, Skladište), stanu i vrate se u nju. Stavka kratko
-  zatreperi i dobije broj, a broj nestane kad otvorite tu stranicu.
-
-  - Podsjetnik za termin izlazi iz Kalendara na sredinu radnog dijela prozora.
-  Kratke poruke („Spremljeno”) su mala kartica uz stavku izbornika i nestaju za
-  2 sekunde.
-
+  - Obavijesti „kao duh iz boce”: izlaze iz stavke izbornika kojoj pripadaju (npr. Kalendar, Ponude, Skladište), stanu i vrate se u nju. Stavka kratko zatreperi i dobije broj, a broj nestane kad otvorite tu stranicu.
+  - Podsjetnik za termin izlazi iz Kalendara na sredinu radnog dijela prozora. Kratke poruke („Spremljeno”) su mala kartica uz stavku izbornika i nestaju za 2 sekunde.
   - Obavijest o novoj verziji uleti iz Postavki servisa i ostaje u kutu.
-
-  - Ako je u Windowsu uključeno smanjenje animacija, obavijesti se samo pojave i
-  nestanu.
-
-  - Upit za ponudu dijelova: ljepši WhatsApp izgled (podebljani naslov, vozilo i
-  šasija, numerirani dijelovi), a slobodan tekst se rastavlja na zasebne stavke.
-
+  - Ako je u Windowsu uključeno smanjenje animacija, obavijesti se samo pojave i nestanu.
+  - Upit za ponudu dijelova: ljepši WhatsApp izgled (podebljani naslov, vozilo i šasija, numerirani dijelovi), a slobodan tekst se rastavlja na zasebne stavke.
 
   Novo u verziji 2.3.39:
-
-  - Radni nalog › Podijeli: novi gumb „Zatraži ponudu za dijelove”. Ciak Auto je
-  već odabran. Poruka sadrži šasiju, vozilo i popis dijelova (bez cijene i
-  šifre, bez podataka o stranci). Na nalogu ostaje zapis „Upit poslan ✓”.
-
-  - Dijelove na nalogu dodajete samo nazivom (Enter) — cijenu upisujete kad
-  stigne ponuda.
-
-  - „Izradi ponudu za kupca” iz radnog naloga otvara novu ponudu (Nacrt) s istim
-  klijentom, vozilom i stavkama.
-
-  - Na ponudi je „Naruči dijelove”: ista poruka dobavljaču, a zapis ide na
-  povezani nalog (ili na ponudu ako nalog nije povezan).
-
-  - Slobodan tekst i brzi unosi u upitu (npr. „Hladnjak + seleni vilice”)
-  postaju stavke na nalogu, bez cijene. Kad stigne ponuda, samo upišete cijene
-  pa „Izradi ponudu za kupca”.
-
+  - Radni nalog › Podijeli: novi gumb „Zatraži ponudu za dijelove”. Ciak Auto je već odabran. Poruka sadrži šasiju, vozilo i popis dijelova (bez cijene i šifre, bez podataka o stranci). Na nalogu ostaje zapis „Upit poslan ✓”.
+  - Dijelove na nalogu dodajete samo nazivom (Enter) — cijenu upisujete kad stigne ponuda.
+  - „Izradi ponudu za kupca” iz radnog naloga otvara novu ponudu (Nacrt) s istim klijentom, vozilom i stavkama.
+  - Na ponudi je „Naruči dijelove”: ista poruka dobavljaču, a zapis ide na povezani nalog (ili na ponudu ako nalog nije povezan).
+  - Slobodan tekst i brzi unosi u upitu (npr. „Hladnjak + seleni vilice”) postaju stavke na nalogu, bez cijene. Kad stigne ponuda, samo upišete cijene pa „Izradi ponudu za kupca”.
 
   Novo u verziji 2.3.38:
-
-  - Novi online zahtjev stiže odmah. Program sluša vezu uživo, a provjera svake
-  minute i pol ostaje ako veza padne. Traka s vrha i Windows obavijest ostaju.
-  Isti zahtjev je u zvonu; klik otvara taj red u Čekaonici.
-
-  - Testni kanal ažuriranja vidi samo licenca s oznakom test-kanal. Ostali
-  servisi i dalje dobivaju samo stabilne verzije.
-
+  - Novi online zahtjev stiže odmah. Program sluša vezu uživo, a provjera svake minute i pol ostaje ako veza padne. Traka s vrha i Windows obavijest ostaju. Isti zahtjev je u zvonu; klik otvara taj red u Čekaonici.
+  - Testni kanal ažuriranja vidi samo licenca s oznakom test-kanal. Ostali servisi i dalje dobivaju samo stabilne verzije.
 
   Novo u verziji 2.3.37:
-
-  - Novi online zahtjev: traka se spušta s vrha prozora (vrsta usluge i „Novi
-  online zahtjev”, bez telefona). Klik otvara Čekaonicu, a nakon 5 sekundi traka
-  odlazi. Windows obavijest ostaje dodatno.
-
-  - Čekaonica: online zahtjev se može obrisati. Kupac vidi „Servis je obrisao
-  zahtjev”. Fotografije se brišu s zahtjevom.
-
+  - Novi online zahtjev: traka se spušta s vrha prozora (vrsta usluge i „Novi online zahtjev”, bez telefona). Klik otvara Čekaonicu, a nakon 5 sekundi traka odlazi. Windows obavijest ostaje dodatno.
+  - Čekaonica: online zahtjev se može obrisati. Kupac vidi „Servis je obrisao zahtjev”. Fotografije se brišu s zahtjevom.
 
   Novo u verziji 2.3.36:
-
-  - Novi online zahtjev: program ga provjerava u pozadini (oko svake minute i
-  pol i kad se prozor vrati u fokus). Windows obavijest kaže vrstu usluge i
-  „Novi online zahtjev”, bez telefona. Klik otvara Čekaonicu, a crvena značka se
-  osvježi odmah.
-
+  - Novi online zahtjev: program ga provjerava u pozadini (oko svake minute i pol i kad se prozor vrati u fokus). Windows obavijest kaže vrstu usluge i „Novi online zahtjev”, bez telefona. Klik otvara Čekaonicu, a crvena značka se osvježi odmah.
 
   Novo u verziji 2.3.35:
-
-  - Postavke servisa: prva kartica je „Javna lista”. Uključite prekidač da se
-  servis vidi u pretrazi javne aplikacije „Naruči se na servis”.
-
+  - Postavke servisa: prva kartica je „Javna lista”. Uključite prekidač da se servis vidi u pretrazi javne aplikacije „Naruči se na servis”.
 
   Novo u verziji 2.3.34:
-
-  - Čekaonica: crvena značka s brojem vozila na čekanju. Kalendar: crvena značka
-  s brojem današnjih termina.
-
-  - Online zahtjev: iz čekaonice šaljete kupcu ponudu ili status (U radu,
-  Gotovo). Kupac to vidi u javnoj aplikaciji.
-
+  - Čekaonica: crvena značka s brojem vozila na čekanju. Kalendar: crvena značka s brojem današnjih termina.
+  - Online zahtjev: iz čekaonice šaljete kupcu ponudu ili status (U radu, Gotovo). Kupac to vidi u javnoj aplikaciji.
 
   Novo u verziji 2.3.33:
-
-  - Narudžba dijelova: „Naruči dijelove” nudi sve stavke naloga (dio, stavka i
-  usluga), uključene po zadanim postavkama. Prazan tekst „Nalog još nema
-  dijelova” ostaje samo kad nalog stvarno nema stavki.
-
+  - Narudžba dijelova: „Naruči dijelove” nudi sve stavke naloga (dio, stavka i usluga), uključene po zadanim postavkama. Prazan tekst „Nalog još nema dijelova” ostaje samo kad nalog stvarno nema stavki.
 
   Novo u verziji 2.3.32:
-
-  - Obavijesti: u zaglavlju su „Označi sve kao pročitano” (sivo kad je sve već
-  pročitano) i „Obriši obavijesti”. Brisanje traži potvrdu i skida samo
-  obavijesti. Radni nalozi, termini i ostali podaci ostaju.
-
-  - Čekaonica: ručni red vozila bez termina i bez sortiranja po datumu.
-  Strelicama ili povlačenjem mijenjate redoslijed. Iz retka otvarate postojeći
-  obrazac za termin ili radni nalog, već ispunjen.
-
-  - Izvještaji › Zarada i dobavljači: kartice zarade i duga, graf zadnjih 12
-  mjeseci i krug duga. Stranica se otvara na „bez PDV-a”. „s PDV-om” i dalje
-  radi.
-
-  - Narudžba dijelova: zadani „Mali servis” je filteri, ulje i čep i brtva za
-  ispust ulja, bez količine ulja. Vlastiti brzi unos ostaje kakav jest.
-
+  - Obavijesti: u zaglavlju su „Označi sve kao pročitano” (sivo kad je sve već pročitano) i „Obriši obavijesti”. Brisanje traži potvrdu i skida samo obavijesti. Radni nalozi, termini i ostali podaci ostaju.
+  - Čekaonica: ručni red vozila bez termina i bez sortiranja po datumu. Strelicama ili povlačenjem mijenjate redoslijed. Iz retka otvarate postojeći obrazac za termin ili radni nalog, već ispunjen.
+  - Izvještaji › Zarada i dobavljači: kartice zarade i duga, graf zadnjih 12 mjeseci i krug duga. Stranica se otvara na „bez PDV-a”. „s PDV-om” i dalje radi.
+  - Narudžba dijelova: zadani „Mali servis” je filteri, ulje i čep i brtva za ispust ulja, bez količine ulja. Vlastiti brzi unos ostaje kakav jest.
   - Postavke › Izgled: Svijetla ili Tamna tema za cijeli program.
-
-  - Postavke servisa: kartice preko cijele širine; na užem prozoru kartice su u
-  karticama Općenito, Podaci servisa, Cijene i PDV, Dobavljači, Ispis,
-  Sigurnosna kopija i Izgled.
-
-  - Cjenik: otvoren uređivač više ne siječe stupac cijene. Tablice se sužavaju s
-  prozorom i prvo skrivaju manje važne stupce.
-
-  - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku
-  mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-19T20:22:11.222Z'
+  - Postavke servisa: kartice preko cijele širine; na užem prozoru kartice su u karticama Općenito, Podaci servisa, Cijene i PDV, Dobavljači, Ispis, Sigurnosna kopija i Izgled.
+  - Cjenik: otvoren uređivač više ne siječe stupac cijene. Tablice se sužavaju s prozorom i prvo skrivaju manje važne stupce.
+  - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
+releaseDate: '2026-11-22T11:29:02.893Z'
