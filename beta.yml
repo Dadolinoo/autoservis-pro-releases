@@ -10,7 +10,15 @@ path: >-
 sha512: >-
   GrCpThPLdOsGRLiU5zBMFsKfHFyD6bmJEeVMkHC/sTYBZWn2iAkbOY2XbuH6nxEgl45NVUMqMH/0eDdi/7Jhzw==
 releaseNotes: |
-  TEST: licenca se automatski ažurira iz oblaka (Uredi u Adminu 1.9.3), bez slanja koda.
+  Novo u verziji 2.3.64:
+  - Licenca se automatski ažurira iz oblaka (Uredi u Adminu 1.9.3), bez slanja koda.
+
+  Novo u verziji 2.3.63:
+  - Izvještaji i Skladište s primkama su cijeli dodaci s lokotom u izborniku, kao Računi.
+  - Napredna pretraga i povijest klijenta su besplatne i otključane (nisu dodatak).
+  - Cijene dodataka iz cjenika prikazuju se po defaultu mjesečno, uz godišnju cijenu.
+  - Broj uz Koš je crven.
+  - Djelatnici (uloge i PIN), Mobilna, pristup podršci, novi slobodni račun i uređivanje redoslijeda izbornika.
 
   Novo u verziji 2.3.57:
   - Zvuk obavijesti: kratki ton kad stigne nova obavijest (online upit, podsjetnik termina, promjena s mobitela, nova verzija). Zasebna ikona zvučnika lijevo od zvonca jednim klikom uključuje ili isključuje zvuk (isključeno = precrtani zvučnik); zvonce je samo za obavijesti. Na dnu zvonca piše trenutni ton, a „Promijeni” vodi u Postavke → Izgled, gdje se bira jedan od 10 tonova – Blagi, Zvonce, Kratki, Dvostruki, Trostruki, Kristal, Kapljica, Akord, Odjek, Signal – uz probu na klik. Kad stigne više obavijesti odjednom, čuje se samo jedan ton; pri pokretanju programa ne svira. Windows obavijesti dok je program u pozadini imaju zvuk, a kad je zvuk isključen su tihe.

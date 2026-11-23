@@ -1,11 +1,14 @@
-version: 2.3.63
+version: 2.3.64
 files:
-  - url: DH-Logix-Setup-2.3.63.exe
-    sha512: F0E87F4wtdMq4b04J+EXZc+8nDMH1EWvFeaKykhqUfnZRFU01Q3wEMYKCEmIvnqQsFR2wxWeWvQdtej3ovm3pw==
-    size: 101857413
-path: DH-Logix-Setup-2.3.63.exe
-sha512: F0E87F4wtdMq4b04J+EXZc+8nDMH1EWvFeaKykhqUfnZRFU01Q3wEMYKCEmIvnqQsFR2wxWeWvQdtej3ovm3pw==
+  - url: DH-Logix-Setup-2.3.64.exe
+    sha512: GrCpThPLdOsGRLiU5zBMFsKfHFyD6bmJEeVMkHC/sTYBZWn2iAkbOY2XbuH6nxEgl45NVUMqMH/0eDdi/7Jhzw==
+    size: 110875397
+path: DH-Logix-Setup-2.3.64.exe
+sha512: GrCpThPLdOsGRLiU5zBMFsKfHFyD6bmJEeVMkHC/sTYBZWn2iAkbOY2XbuH6nxEgl45NVUMqMH/0eDdi/7Jhzw==
 releaseNotes: |
+  Novo u verziji 2.3.64:
+  - Licenca se automatski ažurira iz oblaka (Uredi u Adminu 1.9.3), bez slanja koda.
+
   Novo u verziji 2.3.63:
   - Izvještaji i Skladište s primkama su cijeli dodaci s lokotom u izborniku, kao Računi.
   - Napredna pretraga i povijest klijenta su besplatne i otključane (nisu dodatak).
@@ -129,4 +132,4 @@ releaseNotes: |
   - Postavke servisa: kartice preko cijele širine; na užem prozoru kartice su u karticama Općenito, Podaci servisa, Cijene i PDV, Dobavljači, Ispis, Sigurnosna kopija i Izgled.
   - Cjenik: otvoren uređivač više ne siječe stupac cijene. Tablice se sužavaju s prozorom i prvo skrivaju manje važne stupce.
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-22T16:53:38.333Z'
+releaseDate: '2026-11-23T16:21:50.438Z'
