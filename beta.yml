@@ -1,11 +1,19 @@
-version: 2.3.65
+version: 2.3.66
 files:
-  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.65/DH-Logix-Setup-2.3.65.exe
-    sha512: rhWupc/QYsr4G4LdJrbTX1XxF/sjgsEF9ibjc4wHIqw4F7yHmsE+kXuIS1UvGH6nEqW88eVn4TVe2OoSU5pXww==
-    size: 101878875
-path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.65/DH-Logix-Setup-2.3.65.exe
-sha512: rhWupc/QYsr4G4LdJrbTX1XxF/sjgsEF9ibjc4wHIqw4F7yHmsE+kXuIS1UvGH6nEqW88eVn4TVe2OoSU5pXww==
+  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.66/DH-Logix-Setup-2.3.66.exe
+    sha512: 5OTnk4dORyH27Hp78Mn2SqHEgaFwRuP/JCTumBZUWoBu8d4g/4vykMeAoTEfHnEwk4Bx+SqQU9rOP+J4FwRqdg==
+    size: 101883728
+path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.66/DH-Logix-Setup-2.3.66.exe
+sha512: 5OTnk4dORyH27Hp78Mn2SqHEgaFwRuP/JCTumBZUWoBu8d4g/4vykMeAoTEfHnEwk4Bx+SqQU9rOP+J4FwRqdg==
 releaseNotes: |
+  Novo u verziji 2.3.66:
+  - Dijelovi i Narudžbe: višestruko brisanje u Koš, isto kao na nalozima i ponudama; pojedinačno brisanje također ide u Koš pa se može vratiti.
+  - Na radnom nalogu: WhatsApp ili SMS kupcu „Vozilo je gotovo” jednim klikom (predpopunjena poruka s vozilom i registracijom, potpis „Poslano iz DH-Logix”).
+
+  Novo u verziji 2.3.65:
+  - Računi, primke i stanje skladišta skriveni su iz izbornika (popis dijelova s cijenama ostaje).
+  - Višestruki odabir na nalozima i ponudama šalje u Koš jednim potvrđivanjem.
+
   Novo u verziji 2.3.57:
   - Zvuk obavijesti: kratki ton kad stigne nova obavijest (online upit, podsjetnik termina, promjena s mobitela, nova verzija). Zasebna ikona zvučnika lijevo od zvonca jednim klikom uključuje ili isključuje zvuk (isključeno = precrtani zvučnik); zvonce je samo za obavijesti. Na dnu zvonca piše trenutni ton, a „Promijeni” vodi u Postavke → Izgled, gdje se bira jedan od 10 tonova – Blagi, Zvonce, Kratki, Dvostruki, Trostruki, Kristal, Kapljica, Akord, Odjek, Signal – uz probu na klik. Kad stigne više obavijesti odjednom, čuje se samo jedan ton; pri pokretanju programa ne svira. Windows obavijesti dok je program u pozadini imaju zvuk, a kad je zvuk isključen su tihe.
   - Tamna tema: logotipi marki automobila (Audi, VW, Mercedes, Opel, Peugeot, Ford, Hyundai…) sada se jasno vide – tamni logotipi automatski postaju svijetli (crni i sivi srebrno-bijeli, plavi svijetloplavi, crveni jasno crveni), bez bijelih pločica. U svijetloj temi ostaju izvorne boje.
@@ -122,4 +130,4 @@ releaseNotes: |
   - Postavke servisa: kartice preko cijele širine; na užem prozoru kartice su u karticama Općenito, Podaci servisa, Cijene i PDV, Dobavljači, Ispis, Sigurnosna kopija i Izgled.
   - Cjenik: otvoren uređivač više ne siječe stupac cijene. Tablice se sužavaju s prozorom i prvo skrivaju manje važne stupce.
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-24T17:43:17.758Z'
+releaseDate: '2026-11-24T18:10:02.759Z'
