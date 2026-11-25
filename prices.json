@@ -1,7 +1,7 @@
 {
   "v": 1,
-  "updated": "2026-11-23T17:01:47.880Z",
-  "version": 4,
+  "updated": "2026-11-25T16:52:26.912Z",
+  "version": 5,
   "currency": "EUR",
   "paketi": {
     "osnovni": {
@@ -22,14 +22,6 @@
       "m": 1000,
       "y": 12000
     },
-    "racuni": {
-      "m": 2000,
-      "y": 24000
-    },
-    "primka_xml": {
-      "m": 2000,
-      "y": 24000
-    },
     "izvjestaji_periodi": {
       "m": 1000,
       "y": 12000
@@ -41,9 +33,81 @@
   },
   "akcija": null,
   "note": "PDV nije obračunat (čl. 90. st. 1. Zakona o PDV-u).",
-  "sig": "ng6HA0VjFJvk5-0Zp5nti9lYeg6_uLOUJLAVc1f5f01eH24ktzg1pYEx_SyuMOQoptDRJVzcnUQQBkp5nWXsCg",
-  "sig2": "gZwUlupNQDFfoPiDbSzIlUs23J9txDdlZRfHcb1BkH4FNz0Op2i8bqsf0Lsi5hEXqFHcb0StuFQ8WQwmT-FSDw",
-  "jednokratno": {
-    "uvoz": 2000
+  "sig": "R2jEFvVzlX2P74UzRB6mW2igKNlhj-ItAyrem7gVa3UtXEfx5A3p6t0oTffHQxlnXBacLnPs3uQA_3YAfGPcDg",
+  "sig2": "rvvCjlb-Crkssgy7P4OqFNv48oWnRBlBUNdJp57rog9GDvRsX2ykofYDny0gb4o9Tr0ztxSHvG3c79JuRzYGCw",
+  "sig3": "mZU8l1RLpJAlTpAFH_KfrqtPRVHuUTEYWk97VrnrWm8AfqizAPpwTHQ5wIHfwta8lCAhX2vqjN608zlQ9B1jAw",
+  "kupci": {
+    "5983732AD2": {
+      "paketi": {
+        "osnovni": {
+          "m": 8000,
+          "y": 96000
+        },
+        "pro": {
+          "m": 8000,
+          "y": 96000
+        }
+      },
+      "dodaci": {
+        "visekorisnika": {
+          "m": 0,
+          "y": 0
+        },
+        "mobilna": {
+          "m": 2000,
+          "y": 24000
+        },
+        "izvjestaji_periodi": {
+          "m": 0,
+          "y": 0
+        },
+        "dodatno_racunalo": {
+          "m": 0,
+          "y": 0
+        },
+        "whatsapp": {
+          "m": 0,
+          "y": 0
+        }
+      },
+      "akcija": null,
+      "note": "PDV nije obračunat (čl. 90. st. 1. Zakona o PDV-u)."
+    },
+    "59F3DE7E26": {
+      "paketi": {
+        "osnovni": {
+          "m": 8000,
+          "y": 96000
+        },
+        "pro": {
+          "m": 8000,
+          "y": 96000
+        }
+      },
+      "dodaci": {
+        "visekorisnika": {
+          "m": 0,
+          "y": 0
+        },
+        "mobilna": {
+          "m": 2000,
+          "y": 24000
+        },
+        "izvjestaji_periodi": {
+          "m": 0,
+          "y": 0
+        },
+        "dodatno_racunalo": {
+          "m": 0,
+          "y": 0
+        },
+        "whatsapp": {
+          "m": 0,
+          "y": 0
+        }
+      },
+      "akcija": null,
+      "note": "PDV nije obračunat (čl. 90. st. 1. Zakona o PDV-u)."
+    }
   }
 }
