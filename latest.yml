@@ -1,11 +1,16 @@
-version: 2.3.66
+version: 2.3.67
 files:
-  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.66/DH-Logix-Setup-2.3.66.exe
-    sha512: 5OTnk4dORyH27Hp78Mn2SqHEgaFwRuP/JCTumBZUWoBu8d4g/4vykMeAoTEfHnEwk4Bx+SqQU9rOP+J4FwRqdg==
-    size: 101883728
-path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.66/DH-Logix-Setup-2.3.66.exe
-sha512: 5OTnk4dORyH27Hp78Mn2SqHEgaFwRuP/JCTumBZUWoBu8d4g/4vykMeAoTEfHnEwk4Bx+SqQU9rOP+J4FwRqdg==
+  - url: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.67/DH-Logix-Setup-2.3.67.exe
+    sha512: pz84lUGARSLyb090oOvxT+IrXqVoo2Qx2TBIOdh4vGv/fIAUnFjSEqpjtpOzVoGun6aYOIUs60IPmfpH7p/YEg==
+    size: 101886713
+path: https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.67/DH-Logix-Setup-2.3.67.exe
+sha512: pz84lUGARSLyb090oOvxT+IrXqVoo2Qx2TBIOdh4vGv/fIAUnFjSEqpjtpOzVoGun6aYOIUs60IPmfpH7p/YEg==
 releaseNotes: |
+  Novo u verziji 2.3.67:
+
+  - 0 € u cjeniku se prikazuje kao Gratis (najam i svi dodaci).
+  - Ako Admin objavi posebne cijene za tvoju licencu, program pokazuje njih; inače opći cjenik.
+
   Novo u verziji 2.3.66:
   - Dijelovi i Narudžbe: višestruko brisanje u Koš, isto kao na nalozima i ponudama; pojedinačno brisanje također ide u Koš pa se može vratiti.
   - Na radnom nalogu: WhatsApp ili SMS kupcu „Vozilo je gotovo” jednim klikom (predpopunjena poruka s vozilom i registracijom, potpis „Poslano iz DH-Logix”).
@@ -130,4 +135,4 @@ releaseNotes: |
   - Postavke servisa: kartice preko cijele širine; na užem prozoru kartice su u karticama Općenito, Podaci servisa, Cijene i PDV, Dobavljači, Ispis, Sigurnosna kopija i Izgled.
   - Cjenik: otvoren uređivač više ne siječe stupac cijene. Tablice se sužavaju s prozorom i prvo skrivaju manje važne stupce.
   - Mobilna aplikacija: desktop u sinkronizaciju upisuje stvarnu značajku mobilna (Pro). Osnovni paket na mobitelu vidi zaključavanje, podaci ostaju.
-releaseDate: '2026-11-24T18:10:02.759Z'
+releaseDate: '2026-11-24T19:47:12.684Z'
