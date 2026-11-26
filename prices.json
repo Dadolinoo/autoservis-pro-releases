@@ -1,7 +1,7 @@
 {
   "v": 1,
-  "updated": "2026-11-26T18:31:44.840Z",
-  "version": 7,
+  "updated": "2026-11-26T18:32:57.440Z",
+  "version": 8,
   "currency": "EUR",
   "paketi": {
     "osnovni": {
@@ -25,9 +25,9 @@
   },
   "akcija": null,
   "note": "PDV nije obračunat (čl. 90. st. 1. Zakona o PDV-u).",
-  "sig": "Ky7h_Gx2luIDLoRdPYHDxHG3NHZWpFsoROVcNJbk8dlJfjDSV-QLqYRoTFmcNsiszi2C_zqzsNCkrpHul9tdCA",
-  "sig2": "5yueDuH6UIxkb7Uqckm36sLTbfQzSrGC5pNWKVUudAqZBv-1PgG5jlc3rkUOzjGmkpvSzaXrMQzzf1GJGtI9CA",
-  "sig3": "dQFhKRCxnVcSZ6Ji_1esEP64hzOzA5cCtaS5StpkPa_vQM60LjTv50Jv5vXd5qB1pwOPt276szkxm6_4DT4XCA",
+  "sig": "GclIPHcn2boA5Do-p04Naq8pB9HZKDUwWs-uch25GSfo5kxZAlLCqHZQxHr6u5GgSobCIyZdcN4HAqsyjGH3Ag",
+  "sig2": "vPlJuddEaqGwSIpmfktfKTPN_uXfQ_3PQ8VO7rUojlrppPqOIXnL3o-yVxvRjgleXLfjRXW1TJsLt4loIkNDDw",
+  "sig3": "Fcp66EwOWYMGOFV5Kx1Uj6qIOn61U-3eW-UQEmljzgDXF5evU5A5NPoBwM4KR3LLbLPZBAb_7PgKoTSSexKxAQ",
   "dodaciGratis": {
     "izvjestaji_periodi": {
       "m": 0,
