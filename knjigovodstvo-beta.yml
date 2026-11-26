@@ -1,0 +1,17 @@
+version: 0.3.2
+files:
+  - url: >-
+      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/knjigovodstvo-0.3.2-test/DH-Logix-Knjigovodstvo-Setup-0.3.2.exe
+    sha512: >-
+      iPPzvBFEnrc9HsS3quPCuVqQkxLfoNoceSryYn6ApggsxXUX6AAvCqN/bLKSmAZF7xCRHkTuqs33RzfB2Dnw5g==
+    size: 115796953
+path: >-
+  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/knjigovodstvo-0.3.2-test/DH-Logix-Knjigovodstvo-Setup-0.3.2.exe
+sha512: >-
+  iPPzvBFEnrc9HsS3quPCuVqQkxLfoNoceSryYn6ApggsxXUX6AAvCqN/bLKSmAZF7xCRHkTuqs33RzfB2Dnw5g==
+releaseDate: '2026-11-26T18:54:45.233Z'
+releaseNotes: |
+  Novo u verziji 0.3.2 (test):
+  - Prikaz verzije programa (naslov, Postavke → Ažuriranja i O programu)
+  - Automatsko ažuriranje na testnom kanalu (knjigovodstvo-beta.yml), s ponovnim pokušajem ako preuzimanje zastane
+  - Obavijesti u programu s animacijom duha kao u DH-Logixu; nema Windows obavijesti
