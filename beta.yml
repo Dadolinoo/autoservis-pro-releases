@@ -1,32 +1,20 @@
-version: 2.3.70
+version: 2.3.71
 files:
   - url: >-
-      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.70/DH-Logix-Setup-2.3.70.exe
+      https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.71/DH-Logix-Setup-2.3.71.exe
     sha512: >-
-      kQKoTua2pzJxYInCWswilXl8qbrJFi8do10CVsQAS9xunyIEiQHWskw12zP2kjWg3yZ4iFYRGQAptfSo4CNtRA==
-    size: 101885957
+      Sq61I9gMsELvlTjliCW0igXxcDgIOqMKbhJ5U69M0wOgun6nTQCKVgnDy9eEo/ktpjz7ZPxFB95HCoX7xn7Wtg==
+    size: 101889687
 path: >-
-  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.70/DH-Logix-Setup-2.3.70.exe
+  https://github.com/Dadolinoo/autoservis-pro-releases/releases/download/v2.3.71/DH-Logix-Setup-2.3.71.exe
 sha512: >-
-  kQKoTua2pzJxYInCWswilXl8qbrJFi8do10CVsQAS9xunyIEiQHWskw12zP2kjWg3yZ4iFYRGQAptfSo4CNtRA==
+  Sq61I9gMsELvlTjliCW0igXxcDgIOqMKbhJ5U69M0wOgun6nTQCKVgnDy9eEo/ktpjz7ZPxFB95HCoX7xn7Wtg==
 releaseNotes: >
-  Novo u verziji 2.3.70 (test):
+  Novo u verziji 2.3.71 (test):
 
-  - Uklonjene Windows obavijesti — sve obavijesti samo u programu.
+  - Prazna baza na novom računalu više ne može prebrisati podatke u oblaku (prvo
+  se povuče oblak).
 
-
-  Novo u verziji 2.3.69 (test):
-
-  - Na završenom nalogu (Završeno / Predano) gumb „Pošalji u Knjigovodstvo”:
-  nalog ide u mapu veza, a Knjigovodstvo ga prima kao nacrt računa spreman za
-  fiskalizaciju
-
-  - Gumb je vidljiv ako je uključen modul Računi ili ako je Knjigovodstvo
-  instalirano (najjednostavnije ILI pravilo)
-
-  - Jedan nalog = jedan račun (ponovno slanje se ne knjiži dvaput). Na nalogu se
-  vidi status „Poslano u Knjigovodstvo” ili „Račun izdan”
-
-  - Ispravak: „Izdaj račun” na nalogu sada ovisi o modulu Računi (u 2.3.68 je
-  greškom bio vezan uz Skladište)
-releaseDate: '2026-11-27T13:16:13.496Z'
+  - Sinkronizacija spaja zapise po id-u (klijenti, nalozi, termini, …), ne
+  cijeli dokument; koš i brojači ostaju usklađeni.
+releaseDate: '2026-11-27T14:32:46.332Z'
